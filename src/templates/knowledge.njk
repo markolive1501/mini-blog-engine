@@ -1,0 +1,34 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <div class="tag-hero">
+    <p class="eyebrow">Knowledge</p>
+    <h1>Learn AI &amp; Agents</h1>
+    <p class="tag-description">Educational posts that go deeper. Understand the ideas that are reshaping the world.</p>
+  </div>
+
+  {% if posts.length %}
+  <div class="post-list">
+    {% for post in posts %}
+    <article class="post-card">
+      <div class="post-card-inner">
+        <p class="post-card-meta">{{ post.displayDate }}</p>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}<p class="post-card-excerpt">{{ post.excerpt }}</p>{% endif %}
+        <div class="tag-list">
+          {% for tag in post.tags %}
+            {% if tag.name != 'knowledge' %}
+            <a class="tag" href="{{ tag.url }}">{{ tag.name }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-panel">
+    <p>No knowledge posts yet. Check back soon.</p>
+  </div>
+  {% endif %}
+{% endblock %}

@@ -141,6 +141,15 @@ async function generateSite(logger = console) {
     posts,
   }));
 
+  const knowledgePosts = posts.filter((p) => p.tags.some((t) => t.name === 'knowledge'));
+  writeFile(path.join(outputDir, 'knowledge', 'index.html'), env.render('knowledge.njk', {
+    ...baseContext,
+    pageTitle: 'Knowledge',
+    homeUrl: '../index.html',
+    assetPrefix: '../',
+    posts: knowledgePosts,
+  }));
+
   logger.log(`Generated site with ${posts.length} published post(s).`);
   return { posts, tagIndex };
 }
