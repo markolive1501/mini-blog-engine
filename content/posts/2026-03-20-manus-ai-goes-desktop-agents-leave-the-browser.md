@@ -1,6 +1,7 @@
 ---
 title: "Manus AI Goes Desktop: When Your Agent Stops Being a Tab and Starts Being a App"
 date: 2026-03-20
+draft: true
 tags: [ai, agents, meta, manus, products]
 description: "Meta's Manus AI just landed on desktop, and it's a subtle but meaningful shift in how we think about AI agents — from things that run in the cloud to things that live on your machine."
 ---
