@@ -1,0 +1,31 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <section class="tag-page">
+    <div class="tag-hero">
+      <a class="back-link" href="{{ homeUrl }}">← Back to journal</a>
+      <p class="eyebrow">Tag archive</p>
+      <h1>{{ tag.name }}</h1>
+      <p class="hero-description">Posts collected under one thread, newest first.</p>
+    </div>
+    <div class="post-list">
+      {% for post in posts %}
+        <article class="post-card">
+          <div class="post-card-topline">
+            <p class="post-meta">{{ post.displayDate }}</p>
+            <span class="post-kicker">Tag</span>
+          </div>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <div class="post-card-footer">
+            <div class="tag-list">
+              {% for item in post.tags %}
+                <a class="tag{% if item.name === tag.name %} current{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+              {% endfor %}
+            </div>
+            <a class="card-link" href="{{ post.url }}">Open post</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <section class="hero-panel">
+    <div class="hero-copy">
+      <p class="eyebrow">Editorial notes · curated in code</p>
+      <h1>{{ site.title }}</h1>
+      <p class="hero-tagline">{{ site.tagline or site.description }}</p>
+      <p class="hero-description">A minimal publishing space for sharp thoughts, well-set type, and quiet focus. Built as a static journal, styled like a modern publication.</p>
+    </div>
+    <div class="hero-aside">
+      <div class="hero-metric">
+        <span>Published</span>
+        <strong>{{ posts.length }}</strong>
+      </div>
+      <div class="search-panel">
+        <label class="search-label" for="search-input">Find by title or tag</label>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 0 4.03 11.6l4.43 4.42 1.06-1.06-4.42-4.43A6.5 6.5 0 0 0 10.5 4Zm0 1.5a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"></path></svg>
+          <input id="search-input" class="search-input" type="search" placeholder="Search essays, notes, tags…" autocomplete="off">
+        </div>
+        <p class="search-hint">Instant, local filtering. No network. No noise.</p>
+      </div>
+    </div>
+  </section>
+
+  {% if posts.length %}
+    <p id="no-posts-found" class="empty-state hidden">No posts found. Try a different keyword or tag.</p>
+    <section id="post-list" class="post-list" aria-live="polite">
+      {% for post in posts %}
+        <article class="post-card" data-title="{{ post.title | lower }}" data-tags="{{ post.searchTags }}">
+          <div class="post-card-topline">
+            <p class="post-meta">{{ post.displayDate }}</p>
+            <span class="post-kicker">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+          </div>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="post-summary">A concise entry from the archive, designed for calm reading and fast scanning.</p>
+          <div class="post-card-footer">
+            <div class="tag-list">
+              {% for tag in post.tags %}
+                <a class="tag" href="{{ tag.url }}">{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+            <a class="card-link" href="{{ post.url }}">Read entry</a>
+          </div>
+        </article>
+      {% endfor %}
+    </section>
+    <script>window.__POSTS__ = {{ searchIndex | dump | safe }};</script>
+  {% else %}
+    <div class="empty-panel">
+      <p class="eyebrow">Nothing published yet</p>
+      <h2>The archive is waiting for its first entry.</h2>
+      <p class="empty-state">Add a markdown file to <code>content/posts</code> and regenerate the site.</p>
+    </div>
+  {% endif %}
+{% endblock %}

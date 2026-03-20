@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ pageTitle }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ assetPrefix }}css/style.css">
+  <script>
+    (function () {
+      var storedTheme = localStorage.getItem('theme');
+      if (storedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    }());
+  </script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="header-glow"></div>
+      <nav class="nav">
+        <a class="brand" href="{{ homeUrl }}">
+          <span class="brand-mark">●</span>
+          <span class="brand-copy">
+            <strong>{{ site.title }}</strong>
+            <span>{{ site.tagline or site.description }}</span>
+          </span>
+        </a>
+        <div class="nav-actions">
+          <a class="nav-link" href="{{ homeUrl }}">Journal</a>
+          <a class="nav-link" href="{{ assetPrefix }}feed.xml">RSS</a>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false">
+            <span class="theme-toggle-track">
+              <span class="theme-toggle-thumb"></span>
+            </span>
+            <span class="theme-toggle-label">Dark</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      {% block content %}{% endblock %}
+    </main>
+    <footer class="site-footer">
+      <div>
+        <strong>{{ site.title }}</strong>
+        <span>{{ site.tagline or site.description }}</span>
+      </div>
+      <p>Generated {{ generatedAtDisplay }}</p>
+    </footer>
+  </div>
+  <script src="{{ assetPrefix }}js/main.js"></script>
+</body>
+</html>
