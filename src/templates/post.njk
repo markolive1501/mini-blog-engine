@@ -13,5 +13,10 @@
       </div>
     </div>
     <div class="post-body">{{ post.html | safe }}</div>
+    {% if post.sourceUrl %}
+    <div class="post-source">
+      <p>📖 <strong>Want to read more?</strong> Check out the original: <a href="{{ post.sourceUrl }}" target="_blank" rel="noopener">{{ post.sourceUrl }}</a></p>
+    </div>
+    {% endif %}
   </article>
 {% endblock %}

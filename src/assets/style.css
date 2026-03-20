@@ -584,6 +584,19 @@ html.dark .theme-toggle-thumb { transform: translateX(16px); }
   .post-card h2 { font-size: 1.7rem; }
 }
 
+.post-source {
+  max-width: var(--reading-width);
+  margin-top: 3rem;
+  padding: 20px 24px;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  color: var(--muted-strong);
+}
+.post-source p { margin: 0; }
+.post-source a { color: var(--accent); word-break: break-all; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

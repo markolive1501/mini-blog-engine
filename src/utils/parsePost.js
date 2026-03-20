@@ -74,6 +74,7 @@ function parsePost(filePath, logger = console) {
     tags,
     body,
     html: md.render(body),
+    sourceUrl: data.sourceUrl || null,
     draft: data.draft === true,
     slug,
     excerpt: body.replace(/[#>*_`\-]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180),
