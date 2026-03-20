@@ -20,6 +20,8 @@ function readConfig(logger = console) {
   const defaults = {
     siteTitle: 'Untitled Blog',
     siteDescription: 'A tiny static blog generated from markdown.',
+    tagline: 'Quiet essays, sharper notes, and a calmer corner of the web.',
+    author: 'Anonymous',
     siteUrl: 'http://localhost:8080',
   };
 
@@ -74,6 +76,7 @@ function renderBaseContext(config) {
       title: config.siteTitle,
       description: config.siteDescription,
       tagline: config.tagline,
+      author: config.author,
       url: config.siteUrl,
     },
     generatedAtDisplay: dayjs().format('YYYY-MM-DD HH:mm'),
