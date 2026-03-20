@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Untitled Blog</title>
+    <link>http://localhost:8080</link>
+    <description>A tiny static blog generated from markdown.</description>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:8080/posts/hello-world/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>http://localhost:8080/posts/hello-world/</guid>
+      <description><![CDATA[<h2>Welcome</h2>
+<p>This is the <strong>first</strong> post in the mini blog engine.</p>
+]]></description>
+    </item>
+    
+    <item>
+      <title>Writing Tools</title>
+      <link>http://localhost:8080/posts/writing-tools/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>http://localhost:8080/posts/writing-tools/</guid>
+      <description><![CDATA[<p>A short post about staying focused and writing clearly.</p>
+]]></description>
+    </item>
+    
+  </channel>
+</rss>
