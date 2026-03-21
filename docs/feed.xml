@@ -7,6 +7,57 @@
     <description>AI, agents, and what they mean for the world.</description>
     
     <item>
+      <title>Microsoft&#39;s New Open-Source Tool Tells You Exactly Where Your AI Agent Went Wrong</title>
+      <link>https://markolive1501.github.io/mini-blog-engine/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://markolive1501.github.io/mini-blog-engine/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</guid>
+      <description><![CDATA[<p>When an AI agent goes off the rails mid-task, finding out <em>why</em> is harder than it should be. The trajectories are long, the outputs are stochastic, and by the time you realise something’s gone wrong, the trail is cold. Microsoft Research just released a tool designed to fix that — and it might be the most practical thing to happen to agent development this year.</p>
+<h2>So, What Is AgentRx?</h2>
+<p>AgentRx (short for “Agent Diagnosis”) is an open-source framework that takes a failed agent execution and automatically identifies the <strong>critical failure step</strong> — the first moment things went irreparably off track.</p>
+<p>Here’s how it works. Instead of asking an LLM to guess what went wrong, AgentRx uses a structured pipeline:</p>
+<ol>
+<li><strong>Trajectory normalisation</strong> — Logs from different agent frameworks get converted into a common format.</li>
+<li><strong>Constraint synthesis</strong> — The system automatically generates executable checks based on tool schemas (“the API must return valid JSON”) and domain policies (“don’t delete data without user confirmation”).</li>
+<li><strong>Guarded evaluation</strong> — Each constraint is only checked when its guard condition applies, producing an auditable log of violations.</li>
+<li><strong>LLM-based judging</strong> — A language model uses that violation log to pinpoint the critical failure step and categorise the root cause.</li>
+</ol>
+<h2>Why It Matters</h2>
+<p>The team tested AgentRx against prompting baselines on a benchmark of 115 manually annotated failed trajectories across three real agent systems — τ-bench, Flash, and Magentic-One. The results: <strong>23.6% better failure localisation</strong> and <strong>22.9% better root-cause attribution</strong>.</p>
+<p>That’s not a marginal gain. That’s the difference between spending hours manually tracing a fifty-step execution and having a tool hand you the answer in seconds.</p>
+<p>They’ve also released the <a href="https://aka.ms/AgentRx/Dataset">AgentRx Benchmark dataset</a> and a <a href="https://aka.ms/AgentRx/Repo">grounded nine-category failure taxonomy</a> — so the community can build on this work rather than starting from scratch.</p>
+<h2>The Bigger Picture</h2>
+<p>Agent frameworks are moving fast. We’re past the point where “it works” is enough — now the question is how you know <em>where</em> and <em>why</em> it doesn’t. AgentRx is a signal that the community is starting to treat agent reliability as a real engineering problem, not just a model capability problem.</p>
+<p>If you’re building or running agents in production, this is worth a look. The repo is live, the benchmark is public, and the problem it’s solving is universal.</p>
+<hr>
+<p><em>Round: evening | Pipeline: automated | Status: ready for review</em></p>
+]]></description>
+    </item>
+    
+    <item>
+      <title>Andrej Karpathy Built an AI That Does Research End-to-End. That&#39;s a Big Deal.</title>
+      <link>https://markolive1501.github.io/mini-blog-engine/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://markolive1501.github.io/mini-blog-engine/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</guid>
+      <description><![CDATA[<p>Most AI tools help you work faster. Karpathy’s new autonomous research agent might help you skip work altogether.</p>
+<p>The former Tesla and OpenAI researcher has built — or is heavily associated with — an AI agent that can conduct research tasks from question to conclusion with minimal human input. No hand-holding, no mid-task corrections, no “please verify this result before continuing.” It just… goes.</p>
+<p>And the AI world is paying attention.</p>
+<h2>Why This Hits Different</h2>
+<p>We’ve had AI assistants for years. They draft, they summarise, they generate code. Impressive, but fundamentally reactive — they respond to prompts. Karpathy’s system appears to work differently. You give it a research question and it works the problem the way a scientist would: forming hypotheses, designing experiments, running them, evaluating results, adjusting course, and iterating until something coherent emerges.</p>
+<p>That’s a fundamentally different interaction model. You’re not directing a tool. You’re handing off a question.</p>
+<p>The implications are significant. If an AI can genuinely run a research cycle independently — not just execute a fixed pipeline, but genuinely adapt and reason through obstacles — then the bottleneck on scientific progress shifts. Less about how many researchers you have, more about how good your AI systems are at asking the right next question.</p>
+<h2>The Stakes</h2>
+<p>This is where it gets interesting beyond the novelty. Scientific research is expensive, slow, and bottlenecked on human attention. A system that can reliably chase down a hypothesis end-to-end would be transformative in fields where there’s enough data to work with but not enough researcher time — genomics, materials science, drug discovery, climate modelling.</p>
+<p>The discussion online has been a mix of genuine excitement and careful scepticism, which is exactly the right response. The gap between “demonstrated capability” and “reliable production tool” is wide, and Karpathy — to his credit — has a track record of being fairly direct about limitations.</p>
+<p>But the direction of travel matters here, not just today’s results.</p>
+<h2>What It Means for Builders</h2>
+<p>For anyone building agentic systems, this is a milestone worth watching. The difference between an agent that can complete a task and one that can pursue a research question is the difference between automation and autonomy. One follows instructions. The other thinks about whether the instructions were right.</p>
+<p>We’re not at the latter yet, reliably. But Karpathy’s work suggests the gap is closing faster than most people thought.</p>
+<hr>
+<p><em>Round: evening | Pipeline: automated</em></p>
+]]></description>
+    </item>
+    
+    <item>
       <title>WordPress Just Put an AI Writer in Every Website Owner&#39;s Pocket</title>
       <link>https://markolive1501.github.io/mini-blog-engine/posts/wordpress-just-put-an-ai-writer-in-every-website-owners-pocket/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
@@ -30,6 +81,28 @@
 <p>For a certain kind of site owner — the kind who thinks of publishing as a chore rather than a craft — the answer might genuinely be yes. And that’s fine. Not every post needs to be a considered piece of writing.</p>
 <p>But the more interesting question isn’t whether AI <em>can</em> write for you. It’s whether you can tell the difference when it does — and whether it matters if you can’t.</p>
 <p>The machine is writing now. Your job is to decide how much you care about that.</p>
+]]></description>
+    </item>
+    
+    <item>
+      <title>Your Next Blog Post Might Not Be Written by a Human</title>
+      <link>https://markolive1501.github.io/mini-blog-engine/posts/your-next-blog-post-might-not-be-written-by-a-human/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://markolive1501.github.io/mini-blog-engine/posts/your-next-blog-post-might-not-be-written-by-a-human/</guid>
+      <description><![CDATA[<p>WordPress powers 43% of the web. Twenty billion page views a month. It’s not just a website builder — it’s <em>the</em> internet in many people’s eyes. And as of Friday, it officially lets AI agents write, edit, and publish posts on your behalf. All via natural language commands.</p>
+<p>The feature set is broad: draft, edit, manage comments, update metadata, organize content with tags and categories. If you’ve ever used WordPress, you know how tedious some of that housekeeping is. Automating it through a chat prompt sounds genuinely useful.</p>
+<p>But here’s the part worth sitting with: <strong>posts authored by AI go to draft by default.</strong> They don’t go live automatically. A human has to approve them first.</p>
+<p>That approval gate is doing a lot of narrative work. WordPress isn’t saying “AI will replace your writers.” It’s saying “AI will help your writers — but the last word is still yours.” That’s a very deliberate message. And it probably reflects something real about user sentiment right now.</p>
+<h2>So What’s Actually Happening?</h2>
+<p>The mechanics are straightforward. You link your WordPress site to an AI agent, give it credentials, and then prompt it like a very fast, very literal assistant. “Write a post about our new product launch.” The agent drafts it, saves it as a draft, and you review it before it appears on your site.</p>
+<p>The question isn’t really whether the technology works. It probably does, at least for routine content. The question is whether <em>you</em> — the site owner, the brand manager, the blogger — actually want this sitting in your workflow.</p>
+<p>For solo bloggers or small businesses without a dedicated content team, this could be a genuine productivity unlock. For anyone with a strong voice or a discerning audience, it’s more complicated. AI drafts tend to sound like AI drafts. The approval step might become a heavier lift than just writing the thing yourself.</p>
+<h2>The Bigger Picture</h2>
+<p>What makes this significant isn’t the feature itself — it’s the scale. When a platform serving 43% of all websites decides AI publishing is a priority, it normalizes something. It signals to millions of site owners that AI content creation is now a mainstream expectation, not a fringe experiment.</p>
+<p>That’s a bet on where the internet is going: more content, faster turnaround, humans in the supervisory role. Whether that’s good for the web is a separate question. But WordPress has made its bet.</p>
+<p>The approval gate, though. Keep an eye on that. It’s the bit that suggests WordPress knows something about its own users. The future of AI publishing might not be fully automated — it might just be humans getting very fast first drafts.</p>
+<hr>
+<p><em>Have a WordPress site and thoughts on AI publishing? Already using AI tools to draft content? I’d actually like to hear how it’s going — not the press release version, the real version.</em></p>
 ]]></description>
     </item>
     
