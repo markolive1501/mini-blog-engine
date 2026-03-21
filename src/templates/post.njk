@@ -4,7 +4,7 @@
   <article class="post-page">
     <div class="post-header">
       <a class="back-link" href="{{ homeUrl }}">← Back to journal</a>
-      <p class="eyebrow">Published {{ post.displayDate }}</p>
+      <p class="eyebrow">Published {{ post.displayDate }} · <span class="reading-time">{{ post.readingTime }} min read</span></p>
       <h1>{{ post.title }}</h1>
       <div class="tag-list">
         {% for tag in post.tags %}

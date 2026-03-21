@@ -67,6 +67,25 @@ function parsePost(filePath, logger = console) {
     throw new Error(`Invalid frontmatter in ${absolutePath}: title produced an empty slug`);
   }
 
+  // Build a clean text excerpt for cards
+  const rawExcerpt = data.description
+    ? String(data.description).trim()
+    : body
+        .replace(/#{1,6}\s/g, '')        // strip headings
+        .replace(/\*\*(.*?)\*\*/g, '$1') // strip bold
+        .replace(/\*(.*?)\*/g, '$1')     // strip italic
+        .replace(/\[(.*?)\]\(.*?\)/g, '$1') // strip links
+        .replace(/`{1,3}[^`]*`{1,3}/g, '') // strip code
+        .replace(/^>\s/gm, '')           // strip blockquotes
+        .replace(/[#>*_`\-\[\]()] /g, ' ')
+        .replace(/\s{2,}/g, ' ')
+        .trim()
+        .slice(0, 200);
+
+  // Reading time: ~200 words per minute
+  const wordCount = body.split(/\s+/).filter(Boolean).length;
+  const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+
   return {
     sourcePath: absolutePath,
     title: data.title,
@@ -77,7 +96,8 @@ function parsePost(filePath, logger = console) {
     sourceUrl: data.sourceUrl || null,
     draft: data.draft === true,
     slug,
-    excerpt: body.replace(/[#>*_`\-]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180),
+    excerpt: rawExcerpt,
+    readingTime,
   };
 }
 

@@ -52,7 +52,7 @@ function copyAsset(name, destination) {
   writeFile(destination, fs.readFileSync(path.join(assetsDir, name), 'utf8'));
 }
 
-function enrichPost(post, siteUrl) {
+function enrichPost(post, siteUrl, featured = false) {
   const postUrl = `posts/${post.slug}/`;
   return {
     ...post,
@@ -67,6 +67,7 @@ function enrichPost(post, siteUrl) {
       postUrl: `../../tags/${tag}/`,
       tagUrlFromTagPage: `../${tag}/`,
     })),
+    featured,
   };
 }
 
@@ -88,9 +89,13 @@ async function generateSite(logger = console) {
   fs.rmSync(outputDir, { recursive: true, force: true });
   ensureDir(outputDir);
 
-  const posts = loadPosts(contentDir, logger).map((post) => enrichPost(post, config.siteUrl));
+  const posts = loadPosts(contentDir, logger).map((post) => enrichPost(post, config.siteUrl, false));
   const tagIndex = buildTagIndex(posts);
   const baseContext = renderBaseContext(config);
+
+  // Top 3 most recent posts are featured
+  const featuredPosts = posts.slice(0, 3).map((p) => ({ ...p, featured: true }));
+  const regularPosts = posts.slice(3);
 
   copyAsset('style.css', path.join(outputDir, 'css', 'style.css'));
   copyAsset('main.js', path.join(outputDir, 'js', 'main.js'));
@@ -101,6 +106,8 @@ async function generateSite(logger = console) {
     homeUrl: './index.html',
     assetPrefix: './',
     posts,
+    featuredPosts,
+    regularPosts,
     searchIndex: posts.map((post) => ({ title: post.title, tags: post.tags.map((tag) => tag.name), url: post.url })),
   }));
 
