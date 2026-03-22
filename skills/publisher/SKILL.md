@@ -24,7 +24,8 @@ Review the draft, decide APPROVED or DRAFT, and if approved publish it.
    - Sync output to docs: copy all contents of `output/` into `docs/` (same as `Copy-Item -Recurse -Force`)
    - Commit with `Post: {title}`
    - Push to origin master
-   - Verify the live URL
+   - Deploy to Netlify: `netlify deploy --no-build --prod --dir output --site orbitblog`
+   - Verify the live URL: https://orbitblog.netlify.app
 5. Save approval status to `content/publisher/YYYY-MM-DD.md`.
 
 ## Output format

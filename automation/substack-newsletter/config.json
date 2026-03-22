@@ -1,7 +1,7 @@
 {
   "blog": {
-    "rssUrl": "https://markolive1501.github.io/mini-blog-engine/feed.xml",
-    "baseUrl": "https://markolive1501.github.io/mini-blog-engine/"
+    "rssUrl": "https://orbitblog.netlify.app/feed.xml",
+    "baseUrl": "https://orbitblog.netlify.app/"
   },
   "substack": {
     "publishUrl": "https://orbit286020.substack.com/publish",
