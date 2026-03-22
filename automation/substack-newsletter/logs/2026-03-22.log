@@ -1,0 +1,126 @@
+[2026-03-22T12:31:19.865Z] [INFO] ========================================
+[2026-03-22T12:31:19.867Z] [INFO] Starting Substack publish run at 2026-03-22T12:31:19.865Z
+[2026-03-22T12:31:19.868Z] [INFO] Step 1: Checking RSS feed for new posts...
+[2026-03-22T12:31:20.128Z] [INFO] Found 27 new post(s) to publish
+[2026-03-22T12:31:20.128Z] [INFO] ----------------------------------------
+[2026-03-22T12:31:20.128Z] [INFO] Processing: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job" (https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/)
+[2026-03-22T12:31:20.129Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/
+[2026-03-22T12:31:20.331Z] [INFO] Publishing to Substack: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job"
+[2026-03-22T12:31:20.375Z] [INFO] Starting publish: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job" from https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/
+[2026-03-22T12:31:20.378Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:31:20.397Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:31:20.397Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:31:20.402Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:31:20.375Z] [INFO] Starting publish: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job" from https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/
+[2026-03-22T12:31:20.378Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:31:20.397Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:31:20.397Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:31:20.403Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:31:50.439Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182680330.json
+[2026-03-22T12:31:50.450Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:31:50.439Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182680330.json
+
+[2026-03-22T12:31:50.451Z] [ERROR] FAILED after all retries: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job"
+[2026-03-22T12:31:50.451Z] [INFO] ----------------------------------------
+[2026-03-22T12:31:50.451Z] [INFO] Processing: "Claude Remembers Everything: The Memory System That Changes Everything" (https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/)
+[2026-03-22T12:31:50.451Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/
+[2026-03-22T12:31:50.882Z] [INFO] Publishing to Substack: "Claude Remembers Everything: The Memory System That Changes Everything"
+[2026-03-22T12:31:50.920Z] [INFO] Starting publish: "Claude Remembers Everything: The Memory System That Changes Everything" from https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/
+[2026-03-22T12:31:50.922Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:31:50.941Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:31:50.942Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:31:50.952Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:31:50.920Z] [INFO] Starting publish: "Claude Remembers Everything: The Memory System That Changes Everything" from https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/
+[2026-03-22T12:31:50.922Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:31:50.941Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:31:50.942Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:31:50.953Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:32:21.002Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182710881.json
+[2026-03-22T12:32:21.002Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:32:21.002Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182710881.json
+
+[2026-03-22T12:32:21.002Z] [ERROR] FAILED after all retries: "Claude Remembers Everything: The Memory System That Changes Everything"
+[2026-03-22T12:32:21.003Z] [INFO] ----------------------------------------
+[2026-03-22T12:32:21.003Z] [INFO] Processing: "Constitutional AI: The Idea That Could Make AI Honest" (https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/)
+[2026-03-22T12:32:21.003Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/
+[2026-03-22T12:32:21.207Z] [INFO] Publishing to Substack: "Constitutional AI: The Idea That Could Make AI Honest"
+[2026-03-22T12:32:21.267Z] [INFO] Starting publish: "Constitutional AI: The Idea That Could Make AI Honest" from https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/
+[2026-03-22T12:32:21.270Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:32:21.294Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:32:21.295Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:32:21.292Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:32:21.267Z] [INFO] Starting publish: "Constitutional AI: The Idea That Could Make AI Honest" from https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/
+[2026-03-22T12:32:21.270Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:32:21.294Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:32:21.295Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:32:21.292Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:32:51.345Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182741206.json
+[2026-03-22T12:32:51.345Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:32:51.345Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182741206.json
+
+[2026-03-22T12:32:51.345Z] [ERROR] FAILED after all retries: "Constitutional AI: The Idea That Could Make AI Honest"
+[2026-03-22T12:32:51.345Z] [INFO] ----------------------------------------
+[2026-03-22T12:32:51.345Z] [INFO] Processing: "Deepfakes Are Winning the Race Against Truth" (https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/)
+[2026-03-22T12:32:51.346Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/
+[2026-03-22T12:32:51.549Z] [INFO] Publishing to Substack: "Deepfakes Are Winning the Race Against Truth"
+[2026-03-22T12:32:51.601Z] [INFO] Starting publish: "Deepfakes Are Winning the Race Against Truth" from https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/
+[2026-03-22T12:32:51.603Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:32:51.622Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:32:51.622Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:32:51.620Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:32:51.601Z] [INFO] Starting publish: "Deepfakes Are Winning the Race Against Truth" from https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/
+[2026-03-22T12:32:51.603Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:32:51.622Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:32:51.622Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:32:51.621Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:33:21.679Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182771548.json
+[2026-03-22T12:33:21.681Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:33:21.679Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182771548.json
+
+[2026-03-22T12:33:21.682Z] [ERROR] FAILED after all retries: "Deepfakes Are Winning the Race Against Truth"
+[2026-03-22T12:33:21.682Z] [INFO] ----------------------------------------
+[2026-03-22T12:33:21.682Z] [INFO] Processing: "Edge AI Is Coming, and It Runs on Your Phone" (https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/)
+[2026-03-22T12:33:21.682Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/
+[2026-03-22T12:33:21.891Z] [INFO] Publishing to Substack: "Edge AI Is Coming, and It Runs on Your Phone"
+[2026-03-22T12:33:21.936Z] [INFO] Starting publish: "Edge AI Is Coming, and It Runs on Your Phone" from https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/
+[2026-03-22T12:33:21.938Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:33:21.957Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:33:21.958Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:33:21.961Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:33:21.936Z] [INFO] Starting publish: "Edge AI Is Coming, and It Runs on Your Phone" from https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/
+[2026-03-22T12:33:21.938Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:33:21.957Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:33:21.958Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:33:21.962Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:33:52.014Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182801890.json
+[2026-03-22T12:33:52.021Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:33:52.014Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182801890.json
+
+[2026-03-22T12:33:52.021Z] [ERROR] FAILED after all retries: "Edge AI Is Coming, and It Runs on Your Phone"
+[2026-03-22T12:33:52.021Z] [INFO] ----------------------------------------
+[2026-03-22T12:33:52.022Z] [INFO] Processing: "Gemini Ultra Is AI That Sees Everything" (https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/)
+[2026-03-22T12:33:52.022Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/
+[2026-03-22T12:33:52.217Z] [INFO] Publishing to Substack: "Gemini Ultra Is AI That Sees Everything"
+[2026-03-22T12:33:52.255Z] [INFO] Starting publish: "Gemini Ultra Is AI That Sees Everything" from https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/
+[2026-03-22T12:33:52.257Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:33:52.276Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:33:52.277Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:33:52.288Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:33:52.255Z] [INFO] Starting publish: "Gemini Ultra Is AI That Sees Everything" from https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/
+[2026-03-22T12:33:52.257Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:33:52.276Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:33:52.277Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:33:52.288Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-22T12:34:22.331Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182832217.json
+[2026-03-22T12:34:22.347Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-22T12:34:22.331Z] [ERROR] Body file not found: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\.temp-email-body-1774182832217.json
+
+[2026-03-22T12:34:22.347Z] [ERROR] FAILED after all retries: "Gemini Ultra Is AI That Sees Everything"
+[2026-03-22T12:34:22.348Z] [INFO] ----------------------------------------
+[2026-03-22T12:34:22.348Z] [INFO] Processing: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary." (https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/)
+[2026-03-22T12:34:22.348Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/
+[2026-03-22T12:34:22.544Z] [INFO] Publishing to Substack: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary."
+[2026-03-22T12:34:22.588Z] [INFO] Starting publish: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary." from https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/
+[2026-03-22T12:34:22.590Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:34:22.609Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:34:22.609Z] [ERROR] RESULT: FAILURE
+[2026-03-22T12:34:22.618Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-22T12:34:22.588Z] [INFO] Starting publish: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary." from https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/
+[2026-03-22T12:34:22.590Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-22T12:34:22.609Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-22T12:34:22.609Z] [ERROR] RESULT: FAILURE
+
+[2026-03-22T12:34:22.618Z] [INFO] Retry attempt 2 after 30s delay...
