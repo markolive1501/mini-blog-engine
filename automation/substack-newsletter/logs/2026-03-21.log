@@ -1,0 +1,355 @@
+[2026-03-21T21:29:48.730Z] [INFO] Starting publish: "Test Post" from https://example.com
+[2026-03-21T21:29:48.733Z] [INFO] Connecting to browser session: CF712D9456053DAE8F6EC1FEDDE93571
+[2026-03-21T21:29:48.753Z] [INFO] Connected to browser
+[2026-03-21T21:29:48.754Z] [INFO] Verifying Substack session...
+[2026-03-21T21:29:49.126Z] [ERROR] Exception during publish: 'Page.waitForLoadState' wasn't found
+[2026-03-21T21:29:49.127Z] [ERROR] Error: 'Page.waitForLoadState' wasn't found
+    at pending.<computed> (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\browser-helper.js:138:39)
+    at WebSocket.<anonymous> (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\browser-helper.js:100:45)
+    at WebSocket.emit (node:events:508:28)
+    at Receiver.receiverOnMessage (C:\Users\marko\.openclaw\mini-blog-engine\node_modules\ws\lib\websocket.js:1225:20)
+    at Receiver.emit (node:events:508:28)
+    at Receiver.dataMessage (C:\Users\marko\.openclaw\mini-blog-engine\node_modules\ws\lib\receiver.js:596:14)
+    at C:\Users\marko\.openclaw\mini-blog-engine\node_modules\ws\lib\receiver.js:530:12
+    at C:\Users\marko\.openclaw\mini-blog-engine\node_modules\ws\lib\permessage-deflate.js:309:9
+    at C:\Users\marko\.openclaw\mini-blog-engine\node_modules\ws\lib\permessage-deflate.js:392:7
+    at afterWrite (node:internal/streams/writable:708:5)
+[2026-03-21T21:29:49.588Z] [INFO] Screenshot saved: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-29-49-exception.png
+[2026-03-21T21:29:49.589Z] [ERROR] FAILURE: Could not publish: "Test Post"
+[2026-03-21T21:40:55.815Z] [INFO] ========================================
+[2026-03-21T21:40:55.817Z] [INFO] Starting Substack publish run at 2026-03-21T21:40:55.815Z
+[2026-03-21T21:40:55.817Z] [INFO] Step 1: Checking RSS feed for new posts...
+[2026-03-21T21:40:56.043Z] [INFO] Found 30 new post(s) to publish
+[2026-03-21T21:40:56.044Z] [INFO] ----------------------------------------
+[2026-03-21T21:40:56.044Z] [INFO] Processing: "The AI That Actually Does Things" (https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/)
+[2026-03-21T21:40:56.044Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:40:56.236Z] [INFO] Publishing to Substack: "The AI That Actually Does Things"
+[2026-03-21T21:40:56.273Z] [ERROR] Body file not found: That
+[2026-03-21T21:40:56.288Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:40:56.273Z] [ERROR] Body file not found: That
+
+[2026-03-21T21:40:56.288Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:41:26.335Z] [ERROR] Body file not found: That
+[2026-03-21T21:41:26.342Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:41:26.335Z] [ERROR] Body file not found: That
+
+[2026-03-21T21:41:26.342Z] [ERROR] FAILED after all retries: "The AI That Actually Does Things"
+[2026-03-21T21:41:26.342Z] [INFO] ----------------------------------------
+[2026-03-21T21:41:26.343Z] [INFO] Processing: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting" (https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/)
+[2026-03-21T21:41:26.343Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/
+[2026-03-21T21:41:26.794Z] [INFO] Publishing to Substack: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting"
+[2026-03-21T21:41:26.842Z] [ERROR] Body file not found: a
+[2026-03-21T21:41:26.849Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:41:26.842Z] [ERROR] Body file not found: a
+
+[2026-03-21T21:41:26.849Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:41:56.893Z] [ERROR] Body file not found: a
+[2026-03-21T21:41:56.893Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:41:56.893Z] [ERROR] Body file not found: a
+
+[2026-03-21T21:41:56.893Z] [ERROR] FAILED after all retries: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting"
+[2026-03-21T21:41:56.894Z] [INFO] ----------------------------------------
+[2026-03-21T21:41:56.894Z] [INFO] Processing: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job" (https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/)
+[2026-03-21T21:41:56.894Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/
+[2026-03-21T21:41:57.084Z] [INFO] Publishing to Substack: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job"
+[2026-03-21T21:41:57.135Z] [ERROR] Body file not found: 4.6
+[2026-03-21T21:41:57.136Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:41:57.135Z] [ERROR] Body file not found: 4.6
+
+[2026-03-21T21:41:57.137Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:42:27.188Z] [ERROR] Body file not found: 4.6
+[2026-03-21T21:42:27.188Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:42:27.188Z] [ERROR] Body file not found: 4.6
+
+[2026-03-21T21:42:27.188Z] [ERROR] FAILED after all retries: "Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job"
+[2026-03-21T21:42:27.189Z] [INFO] ----------------------------------------
+[2026-03-21T21:42:27.189Z] [INFO] Processing: "Claude Remembers Everything: The Memory System That Changes Everything" (https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/)
+[2026-03-21T21:42:27.189Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/
+[2026-03-21T21:42:27.396Z] [INFO] Publishing to Substack: "Claude Remembers Everything: The Memory System That Changes Everything"
+[2026-03-21T21:42:27.460Z] [ERROR] Body file not found: Everything:
+[2026-03-21T21:42:27.455Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:42:27.460Z] [ERROR] Body file not found: Everything:
+
+[2026-03-21T21:42:27.456Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:42:57.520Z] [ERROR] Body file not found: Everything:
+[2026-03-21T21:42:57.522Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:42:57.520Z] [ERROR] Body file not found: Everything:
+
+[2026-03-21T21:42:57.522Z] [ERROR] FAILED after all retries: "Claude Remembers Everything: The Memory System That Changes Everything"
+[2026-03-21T21:42:57.522Z] [INFO] ----------------------------------------
+[2026-03-21T21:42:57.523Z] [INFO] Processing: "Constitutional AI: The Idea That Could Make AI Honest" (https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/)
+[2026-03-21T21:42:57.523Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/
+[2026-03-21T21:42:57.735Z] [INFO] Publishing to Substack: "Constitutional AI: The Idea That Could Make AI Honest"
+[2026-03-21T21:42:57.772Z] [ERROR] Body file not found: The
+[2026-03-21T21:42:57.787Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:42:57.772Z] [ERROR] Body file not found: The
+
+[2026-03-21T21:42:57.788Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:43:27.845Z] [ERROR] Body file not found: The
+[2026-03-21T21:43:27.847Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:43:27.845Z] [ERROR] Body file not found: The
+
+[2026-03-21T21:43:27.847Z] [ERROR] FAILED after all retries: "Constitutional AI: The Idea That Could Make AI Honest"
+[2026-03-21T21:43:27.848Z] [INFO] ----------------------------------------
+[2026-03-21T21:43:27.848Z] [INFO] Processing: "Deepfakes Are Winning the Race Against Truth" (https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/)
+[2026-03-21T21:43:27.848Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/
+[2026-03-21T21:43:28.036Z] [INFO] Publishing to Substack: "Deepfakes Are Winning the Race Against Truth"
+[2026-03-21T21:43:28.080Z] [ERROR] Body file not found: Winning
+[2026-03-21T21:43:28.089Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:43:28.080Z] [ERROR] Body file not found: Winning
+
+[2026-03-21T21:43:28.089Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:43:58.137Z] [ERROR] Body file not found: Winning
+[2026-03-21T21:43:58.151Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:43:58.137Z] [ERROR] Body file not found: Winning
+
+[2026-03-21T21:43:58.152Z] [ERROR] FAILED after all retries: "Deepfakes Are Winning the Race Against Truth"
+[2026-03-21T21:43:58.152Z] [INFO] ----------------------------------------
+[2026-03-21T21:43:58.152Z] [INFO] Processing: "Edge AI Is Coming, and It Runs on Your Phone" (https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/)
+[2026-03-21T21:43:58.152Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/
+[2026-03-21T21:43:58.348Z] [INFO] Publishing to Substack: "Edge AI Is Coming, and It Runs on Your Phone"
+[2026-03-21T21:43:58.393Z] [ERROR] Body file not found: Is
+[2026-03-21T21:43:58.402Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:43:58.393Z] [ERROR] Body file not found: Is
+
+[2026-03-21T21:43:58.402Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:44:28.449Z] [ERROR] Body file not found: Is
+[2026-03-21T21:44:28.458Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:44:28.449Z] [ERROR] Body file not found: Is
+
+[2026-03-21T21:44:28.459Z] [ERROR] FAILED after all retries: "Edge AI Is Coming, and It Runs on Your Phone"
+[2026-03-21T21:44:28.459Z] [INFO] ----------------------------------------
+[2026-03-21T21:44:28.459Z] [INFO] Processing: "Figure 01: The Robot That Can Do Your Job Is No Longer Science Fiction" (https://markolive1501.github.io/mini-blog-engine/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/)
+[2026-03-21T21:44:28.459Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/
+[2026-03-21T21:44:28.658Z] [INFO] Publishing to Substack: "Figure 01: The Robot That Can Do Your Job Is No Longer Science Fiction"
+[2026-03-21T21:44:28.701Z] [ERROR] Body file not found: The
+[2026-03-21T21:44:28.710Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:44:28.701Z] [ERROR] Body file not found: The
+
+[2026-03-21T21:44:28.710Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:44:58.756Z] [ERROR] Body file not found: The
+[2026-03-21T21:44:58.756Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:44:58.756Z] [ERROR] Body file not found: The
+
+[2026-03-21T21:44:58.757Z] [ERROR] FAILED after all retries: "Figure 01: The Robot That Can Do Your Job Is No Longer Science Fiction"
+[2026-03-21T21:44:58.757Z] [INFO] ----------------------------------------
+[2026-03-21T21:44:58.757Z] [INFO] Processing: "Gemini Ultra Is AI That Sees Everything" (https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/)
+[2026-03-21T21:44:58.757Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/
+[2026-03-21T21:44:58.953Z] [INFO] Publishing to Substack: "Gemini Ultra Is AI That Sees Everything"
+[2026-03-21T21:44:58.996Z] [ERROR] Body file not found: Is
+[2026-03-21T21:44:59.003Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:44:58.996Z] [ERROR] Body file not found: Is
+
+[2026-03-21T21:44:59.003Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:45:29.062Z] [ERROR] Body file not found: Is
+[2026-03-21T21:45:29.061Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:45:29.062Z] [ERROR] Body file not found: Is
+
+[2026-03-21T21:45:29.062Z] [ERROR] FAILED after all retries: "Gemini Ultra Is AI That Sees Everything"
+[2026-03-21T21:45:29.062Z] [INFO] ----------------------------------------
+[2026-03-21T21:45:29.062Z] [INFO] Processing: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary." (https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/)
+[2026-03-21T21:45:29.062Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/
+[2026-03-21T21:45:29.258Z] [INFO] Publishing to Substack: "Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary."
+[2026-03-21T21:45:29.303Z] [ERROR] Body file not found: Wants
+[2026-03-21T21:45:29.309Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:45:29.303Z] [ERROR] Body file not found: Wants
+
+[2026-03-21T21:45:29.309Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:57:48.098Z] [INFO] ========================================
+[2026-03-21T21:57:48.099Z] [INFO] Starting Substack publish run at 2026-03-21T21:57:48.098Z
+[2026-03-21T21:57:48.100Z] [INFO] Step 1: Checking RSS feed for new posts...
+[2026-03-21T21:57:48.330Z] [INFO] Found 29 new post(s) to publish
+[2026-03-21T21:57:48.330Z] [INFO] ----------------------------------------
+[2026-03-21T21:57:48.330Z] [INFO] Processing: "The AI That Actually Does Things" (https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/)
+[2026-03-21T21:57:48.331Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:57:48.537Z] [INFO] Publishing to Substack: "The AI That Actually Does Things"
+[2026-03-21T21:57:48.582Z] [INFO] Starting publish: "The AI That Actually Does Things" from https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:57:48.584Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:57:48.604Z] [INFO] Connected
+[2026-03-21T21:57:48.604Z] [INFO] Verifying Substack session...
+[2026-03-21T21:57:51.573Z] [INFO] Session OK
+[2026-03-21T21:57:51.574Z] [INFO] Navigating to publish page...
+[2026-03-21T21:57:55.659Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-57-55-publish-page.png
+[2026-03-21T21:57:55.661Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:57:55.694Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:57:55.736Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-57-55-exception.png
+[2026-03-21T21:57:55.736Z] [ERROR] RESULT: FAILURE — "The AI That Actually Does Things"
+[2026-03-21T21:57:55.741Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:57:48.582Z] [INFO] Starting publish: "The AI That Actually Does Things" from https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:57:48.584Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:57:48.604Z] [INFO] Connected
+[2026-03-21T21:57:48.604Z] [INFO] Verifying Substack session...
+[2026-03-21T21:57:51.573Z] [INFO] Session OK
+[2026-03-21T21:57:51.574Z] [INFO] Navigating to publish page...
+[2026-03-21T21:57:55.659Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-57-55-publish-page.png
+[2026-03-21T21:57:55.661Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:57:55.694Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:57:55.736Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-57-55-exception.png
+[2026-03-21T21:57:55.736Z] [ERROR] RESULT: FAILURE — "The AI That Actually Does Things"
+
+[2026-03-21T21:57:55.741Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T21:58:25.786Z] [INFO] Starting publish: "The AI That Actually Does Things" from https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:58:25.788Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:58:25.807Z] [INFO] Connected
+[2026-03-21T21:58:25.807Z] [INFO] Verifying Substack session...
+[2026-03-21T21:58:28.690Z] [INFO] Session OK
+[2026-03-21T21:58:28.691Z] [INFO] Navigating to publish page...
+[2026-03-21T21:58:32.798Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-32-publish-page.png
+[2026-03-21T21:58:32.800Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:58:32.832Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:58:32.874Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-32-exception.png
+[2026-03-21T21:58:32.875Z] [ERROR] RESULT: FAILURE — "The AI That Actually Does Things"
+[2026-03-21T21:58:32.885Z] [ERROR] publish-post.js attempt 2 failed: [2026-03-21T21:58:25.786Z] [INFO] Starting publish: "The AI That Actually Does Things" from https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T21:58:25.788Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:58:25.807Z] [INFO] Connected
+[2026-03-21T21:58:25.807Z] [INFO] Verifying Substack session...
+[2026-03-21T21:58:28.690Z] [INFO] Session OK
+[2026-03-21T21:58:28.691Z] [INFO] Navigating to publish page...
+[2026-03-21T21:58:32.798Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-32-publish-page.png
+[2026-03-21T21:58:32.800Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:58:32.832Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:58:32.874Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-32-exception.png
+[2026-03-21T21:58:32.875Z] [ERROR] RESULT: FAILURE — "The AI That Actually Does Things"
+
+[2026-03-21T21:58:32.885Z] [ERROR] FAILED after all retries: "The AI That Actually Does Things"
+[2026-03-21T21:58:32.885Z] [INFO] ----------------------------------------
+[2026-03-21T21:58:32.886Z] [INFO] Processing: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting" (https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/)
+[2026-03-21T21:58:32.886Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/
+[2026-03-21T21:58:33.085Z] [INFO] Publishing to Substack: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting"
+[2026-03-21T21:58:33.124Z] [INFO] Starting publish: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting" from https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/
+[2026-03-21T21:58:33.127Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:58:33.146Z] [INFO] Connected
+[2026-03-21T21:58:33.147Z] [INFO] Verifying Substack session...
+[2026-03-21T21:58:36.032Z] [INFO] Session OK
+[2026-03-21T21:58:36.032Z] [INFO] Navigating to publish page...
+[2026-03-21T21:58:40.154Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-40-publish-page.png
+[2026-03-21T21:58:40.156Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:58:40.188Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:58:40.230Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-40-exception.png
+[2026-03-21T21:58:40.231Z] [ERROR] RESULT: FAILURE — "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting"
+[2026-03-21T21:58:40.240Z] [ERROR] publish-post.js attempt 1 failed: [2026-03-21T21:58:33.124Z] [INFO] Starting publish: "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting" from https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/
+[2026-03-21T21:58:33.127Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T21:58:33.146Z] [INFO] Connected
+[2026-03-21T21:58:33.147Z] [INFO] Verifying Substack session...
+[2026-03-21T21:58:36.032Z] [INFO] Session OK
+[2026-03-21T21:58:36.032Z] [INFO] Navigating to publish page...
+[2026-03-21T21:58:40.154Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-40-publish-page.png
+[2026-03-21T21:58:40.156Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T21:58:40.188Z] [ERROR] Exception: Cannot read properties of null (reading 'toLowerCase')
+[2026-03-21T21:58:40.230Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T21-58-40-exception.png
+[2026-03-21T21:58:40.231Z] [ERROR] RESULT: FAILURE — "AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting"
+
+[2026-03-21T21:58:40.240Z] [INFO] Retry attempt 2 after 30s delay...
+[2026-03-21T22:00:57.335Z] [INFO] ========================================
+[2026-03-21T22:00:57.337Z] [INFO] Starting Substack publish run at 2026-03-21T22:00:57.335Z
+[2026-03-21T22:00:57.338Z] [INFO] Step 1: Checking RSS feed for new posts...
+[2026-03-21T22:00:57.460Z] [INFO] Found 29 new post(s) to publish
+[2026-03-21T22:00:57.460Z] [INFO] ----------------------------------------
+[2026-03-21T22:00:57.461Z] [INFO] Processing: "The AI That Actually Does Things" (https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/)
+[2026-03-21T22:00:57.461Z] [INFO] Fetching content for: https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T22:00:57.568Z] [INFO] Publishing to Substack: "The AI That Actually Does Things"
+[2026-03-21T22:00:57.608Z] [INFO] Starting publish: "The AI That Actually Does Things" from https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/
+[2026-03-21T22:00:57.610Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T22:00:57.629Z] [INFO] Connected
+[2026-03-21T22:00:57.629Z] [INFO] Verifying Substack session...
+[2026-03-21T22:01:00.540Z] [INFO] Session OK
+[2026-03-21T22:01:00.541Z] [INFO] Navigating to publish page...
+[2026-03-21T22:01:04.661Z] [INFO] Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-01-04-publish-page.png
+[2026-03-21T22:01:04.663Z] [INFO] On publish dashboard — looking for "New free post"...
+[2026-03-21T22:32:31.363Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:32:31.365Z] [INFO]   write-and-publish.js — Substack Auto-Publisher
+[2026-03-21T22:32:31.365Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:32:31.365Z] [INFO] Title:    🚀 Test Post — Orbit Auto-Publish v3
+[2026-03-21T22:32:31.366Z] [INFO] Subtitle: This post was written and published automatically by the Sub...
+[2026-03-21T22:32:31.366Z] [INFO] Email:    🚀 Test Newsletter — Orbit Auto-Publish v3
+[2026-03-21T22:32:31.366Z] [INFO] Body:     734 chars
+[2026-03-21T22:32:31.367Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T22:32:31.387Z] [INFO] Connected
+[2026-03-21T22:32:31.388Z] [INFO] STEP 1: Navigating to editor...
+[2026-03-21T22:32:40.366Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-32-40-01-editor-loaded.png
+[2026-03-21T22:32:40.368Z] [INFO] URL: https://orbit286020.substack.com/publish/post/191713465
+[2026-03-21T22:32:40.368Z] [INFO] STEP 2: Filling metadata title...
+[2026-03-21T22:32:42.575Z] [INFO] Metadata title: OK (2207ms)
+[2026-03-21T22:32:43.116Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-32-43-02-title-filled.png
+[2026-03-21T22:32:43.116Z] [INFO] STEP 3: Filling subtitle...
+[2026-03-21T22:32:48.896Z] [INFO] Subtitle: OK (5779ms)
+[2026-03-21T22:32:49.399Z] [INFO] STEP 4: Filling email title...
+[2026-03-21T22:32:49.426Z] [INFO] Email header expand: clicked: Email header / footer
+[2026-03-21T22:32:54.446Z] [INFO] Email title: OK (5047ms)
+[2026-03-21T22:34:58.402Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-32-54-04-email-title-filled.png
+[2026-03-21T22:34:58.402Z] [INFO] STEP 5: Filling body via innerHTML...
+[2026-03-21T22:34:58.423Z] [INFO] Body fill: inserted 15 lines, 753 chars
+[2026-03-21T22:34:58.424Z] [INFO] Body: OK (21ms)
+[2026-03-21T22:35:00.103Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-34-58-05-body-filled.png
+[2026-03-21T22:35:00.104Z] [INFO] STEP 6: Clicking Continue...
+[2026-03-21T22:35:00.160Z] [INFO] Continue: clicked: Continue
+[2026-03-21T22:35:08.205Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-35-08-06-after-continue.png
+[2026-03-21T22:35:08.206Z] [INFO] Post URL after continue: https://orbit286020.substack.com/publish/post/191713465
+[2026-03-21T22:35:08.207Z] [INFO] STEP 7: Clicking "Send to everyone now"...
+[2026-03-21T22:35:08.210Z] [INFO] Send to everyone: not found: Send to everyone now
+[2026-03-21T22:35:10.263Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-35-10-07-after-send.png
+[2026-03-21T22:35:10.264Z] [INFO] STEP 8: Checking for subscribe dialog...
+[2026-03-21T22:35:25.460Z] [WARN] Screenshot failed: WebSocket not connected
+[2026-03-21T22:35:25.461Z] [INFO] No subscribe dialog appeared
+[2026-03-21T22:35:30.467Z] [ERROR] Exception: WebSocket not connected
+Error: WebSocket not connected
+    at BrowserHelper.send (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\browser-helper.js:97:19)
+    at BrowserHelper.getUrl (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\browser-helper.js:428:35)
+    at writeAndPublish (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\write-and-publish.js:414:33)
+    at async main (C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\write-and-publish.js:457:20)
+[2026-03-21T22:35:30.468Z] [WARN] Screenshot failed: WebSocket not connected
+[2026-03-21T22:35:30.469Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:35:30.469Z] [ERROR] ❌ RESULT: FAILURE
+[2026-03-21T22:35:30.469Z] [ERROR] Final URL: 
+[2026-03-21T22:35:30.470Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:37:04.535Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:37:04.537Z] [INFO]   write-and-publish.js — Substack Auto-Publisher
+[2026-03-21T22:37:04.537Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:37:04.538Z] [INFO] Title:    🚀 Test Post — Orbit Auto-Publish v3
+[2026-03-21T22:37:04.538Z] [INFO] Subtitle: This post was written and published automatically by the Sub...
+[2026-03-21T22:37:04.538Z] [INFO] Email:    🚀 Test Newsletter — Orbit Auto-Publish v3
+[2026-03-21T22:37:04.538Z] [INFO] Body:     734 chars
+[2026-03-21T22:37:04.539Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T22:37:04.559Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-21T22:37:04.560Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:37:04.560Z] [ERROR] ❌ RESULT: FAILURE
+[2026-03-21T22:37:04.560Z] [ERROR] Final URL: undefined
+[2026-03-21T22:37:04.560Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:02.391Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:02.393Z] [INFO]   write-and-publish.js — Substack Auto-Publisher
+[2026-03-21T22:38:02.393Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:02.393Z] [INFO] Title:    🚀 Test Post — Orbit Auto-Publish v3
+[2026-03-21T22:38:02.393Z] [INFO] Subtitle: This post was written and published automatically by the Sub...
+[2026-03-21T22:38:02.394Z] [INFO] Email:    🚀 Test Newsletter — Orbit Auto-Publish v3
+[2026-03-21T22:38:02.394Z] [INFO] Body:     734 chars
+[2026-03-21T22:38:02.394Z] [INFO] Connecting to browser (targetId=CF712D9456053DAE8F6EC1FEDDE93571)
+[2026-03-21T22:38:02.415Z] [ERROR] Connection failed: Unexpected server response: 500
+[2026-03-21T22:38:02.415Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:02.415Z] [ERROR] ❌ RESULT: FAILURE
+[2026-03-21T22:38:02.416Z] [ERROR] Final URL: undefined
+[2026-03-21T22:38:02.416Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:16.322Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:16.324Z] [INFO]   write-and-publish.js — Substack Auto-Publisher
+[2026-03-21T22:38:16.324Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:38:16.325Z] [INFO] Title:    🚀 Test Post — Orbit Auto-Publish v3
+[2026-03-21T22:38:16.325Z] [INFO] Subtitle: This post was written and published automatically by the Sub...
+[2026-03-21T22:38:16.325Z] [INFO] Email:    🚀 Test Newsletter — Orbit Auto-Publish v3
+[2026-03-21T22:38:16.325Z] [INFO] Body:     734 chars
+[2026-03-21T22:38:16.326Z] [INFO] Connecting to browser (targetId=EC2E01079798BBC0AA6B5FCA0534ABE2)
+[2026-03-21T22:38:16.346Z] [INFO] Connected
+[2026-03-21T22:38:16.347Z] [INFO] STEP 1: Navigating to editor...
+[2026-03-21T22:38:25.308Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-38-25-01-editor-loaded.png
+[2026-03-21T22:38:25.311Z] [INFO] URL: https://orbit286020.substack.com/publish/post/191713824
+[2026-03-21T22:38:25.311Z] [INFO] STEP 2: Filling metadata title...
+[2026-03-21T22:38:27.496Z] [INFO] Metadata title: OK (2185ms)
+[2026-03-21T22:38:28.045Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-38-27-02-title-filled.png
+[2026-03-21T22:38:28.045Z] [INFO] STEP 3: Filling subtitle...
+[2026-03-21T22:38:33.787Z] [INFO] Subtitle: OK (5742ms)
+[2026-03-21T22:38:34.298Z] [INFO] STEP 4: Filling email title...
+[2026-03-21T22:38:34.323Z] [INFO] Email header expand: clicked: Email header / footer
+[2026-03-21T22:38:39.340Z] [INFO] Email title: OK (5041ms)
+[2026-03-21T22:39:17.785Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-38-39-04-email-title-filled.png
+[2026-03-21T22:39:17.785Z] [INFO] STEP 5: Filling body via innerHTML...
+[2026-03-21T22:39:17.809Z] [INFO] Body fill: inserted 15 lines, 753 chars
+[2026-03-21T22:39:17.809Z] [INFO] Body: OK (24ms)
+[2026-03-21T22:39:18.408Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-39-18-05-body-filled.png
+[2026-03-21T22:39:18.409Z] [INFO] STEP 6: Clicking Continue...
+[2026-03-21T22:39:18.472Z] [INFO] Continue: clicked: Continue
+[2026-03-21T22:39:26.528Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-39-26-06-after-continue.png
+[2026-03-21T22:39:26.530Z] [INFO] Post URL after continue: https://orbit286020.substack.com/publish/post/191713824
+[2026-03-21T22:39:26.530Z] [INFO] STEP 7: Clicking "Send to everyone now"...
+[2026-03-21T22:39:26.531Z] [INFO] All buttons visible: ["Saved","Preview","Continue","Style","Button","More","Email header / footer","Orbit","Settings","Settings","Transcript","Drop your audio file here or click to browseMP3, AAC, WAV, AIFF, etc.ORRecord au","Record audio","Cancel","Send to everyone now"]
+[2026-03-21T22:39:26.615Z] [INFO] Send to everyone: clicked: Send to everyone now
+[2026-03-21T22:39:29.087Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-39-28-07-after-send.png
+[2026-03-21T22:39:29.087Z] [INFO] STEP 8: Checking for subscribe dialog...
+[2026-03-21T22:39:29.169Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-39-29-08-dialog-check.png
+[2026-03-21T22:39:29.169Z] [INFO] Dialog detected — clicking "Publish without buttons"...
+[2026-03-21T22:39:29.171Z] [INFO] Dialog buttons: ["","","","","Cancel","LoadingPublishing..."]
+[2026-03-21T22:39:29.174Z] [INFO] Publish without buttons: not found
+[2026-03-21T22:39:40.198Z] [INFO] Final URL: https://orbit286020.substack.com/publish/post/191713824
+[2026-03-21T22:39:43.004Z] [INFO] 📸 Screenshot: C:\Users\marko\.openclaw\mini-blog-engine\automation\substack-newsletter\screenshots\2026-03-21T22-39-40-09-final-state.png
+[2026-03-21T22:39:43.005Z] [WARN] Still on publish page: https://orbit286020.substack.com/publish/post/191713824
+[2026-03-21T22:39:43.006Z] [INFO] ═══════════════════════════════════════════════
+[2026-03-21T22:39:43.006Z] [ERROR] ❌ RESULT: FAILURE
+[2026-03-21T22:39:43.006Z] [ERROR] Final URL: https://orbit286020.substack.com/publish/post/191713824
+[2026-03-21T22:39:43.006Z] [INFO] ═══════════════════════════════════════════════

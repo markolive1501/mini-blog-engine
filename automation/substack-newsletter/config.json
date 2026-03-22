@@ -1,0 +1,18 @@
+{
+  "blog": {
+    "rssUrl": "https://markolive1501.github.io/mini-blog-engine/feed.xml",
+    "baseUrl": "https://markolive1501.github.io/mini-blog-engine/"
+  },
+  "substack": {
+    "publishUrl": "https://orbit286020.substack.com/publish",
+    "browserTargetId": "EC2E01079798BBC0AA6B5FCA0534ABE2"
+  },
+  "automation": {
+    "stateFile": "state.json",
+    "logDir": "logs",
+    "screenshotDir": "screenshots",
+    "retryAttempts": 1,
+    "retryDelaySeconds": 30,
+    "maxRunHistory": 100
+  }
+}

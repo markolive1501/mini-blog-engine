@@ -15,6 +15,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-front-matter": "^0.2.4",
     "nunjucks": "^3.2.4",
+    "ws": "^8.20.0",
     "yaml": "^2.8.1"
   }
 }

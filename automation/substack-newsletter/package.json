@@ -1,0 +1,12 @@
+{
+  "name": "substack-newsletter",
+  "version": "1.0.0",
+  "description": "Automated Substack newsletter publisher",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

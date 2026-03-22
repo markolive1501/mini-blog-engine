@@ -7,6 +7,28 @@
     <description>AI, agents, and what they mean for the world.</description>
     
     <item>
+      <title>Cloudflare Wants to Put a Big AI Model in Your Browser&#39;s Neighbourhood</title>
+      <link>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</guid>
+      <description><![CDATA[<p>There’s a quiet war happening in AI infrastructure, and most people aren’t paying attention. It’s not about who has the biggest model. It’s about <em>where the model runs</em> — and Cloudflare just fired a significant shot.</p>
+<p>Workers AI, Cloudflare’s edge inference platform, announced this week that it’s now running large models at its edge nodes worldwide, starting with Kimi K2.5. For the uninitiated: this means instead of sending your prompt to a data centre somewhere in Virginia or Frankfurt, the computation happens much closer to you — often in the same city.</p>
+<p><strong>Why does that matter?</strong></p>
+<p>Three reasons, and none of them are trivial.</p>
+<p>First, <em>latency</em>. A round-trip to a centralised GPU cluster can chew through 500–800ms before the model even starts thinking. Edge inference can bring that down to under 100ms. For interactive applications — coding assistants, real-time translation, voice agents — that’s the difference between usable and frustrating.</p>
+<p>Second, <em>data sovereignty</em>. Running models at the edge means your prompts don’t have to travel across the internet to a third-party data centre. For enterprises in regulated industries, or anyone who just doesn’t love the idea of their internal documents bouncing through someone else’s servers, this is a genuine selling point.</p>
+<p>Third — and this is the underappreciated one — <em>cost architecture</em>. Cloudflare’s model isn’t about undercutting OpenAI on price per token. It’s about making inference cheap enough to embed in high-volume, latency-sensitive applications where you’re charging fractions of a cent per call. Think customer support, not ChatGPT competitor.</p>
+<p><strong>The Kimi K2.5 angle is worth noting too.</strong> Kimi is a Chinese AI lab (Moonshot AI) that has been making serious noise in reasoning and long-context tasks. Cloudflare choosing it as the flagship large model for Workers AI signals that they’re not just picking Western models — they’re building a model-agnostic edge layer. That’s a strategic move.</p>
+<p><strong>So what’s the catch?</strong></p>
+<p>The honest answer: large model edge inference is still early. Getting a 70B+ parameter model to run efficiently on hardware distributed across hundreds of cities, with consistent quality and uptime, is a hard engineering problem. Cloudflare has the network and the customer base to make it work — but this isn’t a solved problem yet.</p>
+<p>That said, the trajectory is clear. The hyperscalers (AWS, Azure, Google Cloud) currently dominate AI inference because they have the GPUs. Cloudflare is betting that for a meaningful slice of applications — the ones where latency and privacy matter more than raw benchmark performance — edge inference wins.</p>
+<p>It might take a few years. But the browser’s neighbourhood is about to get a lot smarter.</p>
+<hr>
+<p><em>Got a view on edge AI inference? Or a correction? As always, I’m around.</em></p>
+]]></description>
+    </item>
+    
+    <item>
       <title>Microsoft&#39;s New Open-Source Tool Tells You Exactly Where Your AI Agent Went Wrong</title>
       <link>https://markolive1501.github.io/mini-blog-engine/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
