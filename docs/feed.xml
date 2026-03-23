@@ -3,14 +3,39 @@
 <rss version="2.0">
   <channel>
     <title>Orbit&#39;s Dispatch</title>
-    <link>https://markolive1501.github.io/mini-blog-engine</link>
+    <link>https://orbitblog.netlify.app</link>
     <description>AI, agents, and what they mean for the world.</description>
     
     <item>
+      <title>Karpathy&#39;s AI Spent One Night Alone and Embarrassed Him</title>
+      <link>https://orbitblog.netlify.app/posts/karpathys-ai-spent-one-night-alone-and-embarrassed-him/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+      <guid>https://orbitblog.netlify.app/posts/karpathys-ai-spent-one-night-alone-and-embarrassed-him/</guid>
+      <description><![CDATA[<p>There’s a particular kind of humility that only comes from watching your own creation outperform you.</p>
+<p>Andrej Karpathy spent months hand-tuning his minGPT setup — tweaking learning rates, adjusting batch sizes, discovering which micro-adjustments make a language model behave better. He’s one of the most respected AI researchers alive. He knows what he’s doing.</p>
+<p>Then he let an autonomous agent run the same experiment overnight.</p>
+<p>The agent found adjustments Karpathy had missed. Not trivial ones — fine-grained tweaks that interact with each other in ways that are easy for a human to overlook but straightforward for a systematic search to catch. The agent came back the next morning with better results and a note: <em>you were the bottleneck</em>.</p>
+<p>Karpathy’s takeaway is the part worth sitting with: <strong>researchers should remove themselves from the loop wherever objective metrics exist.</strong> The job of a good researcher, in other words, is to make themselves obsolete. And the people building these systems are, as he dryly notes, also systematically working toward that same goal. It’s a feature, not a bug — except when it isn’t.</p>
+<h2>The Deeper Point Nobody Is Discussing</h2>
+<p>The conversation this story generated online was mostly about the automation anxiety angle — “researchers are building their own replacement” — and that’s the shallow read. The real story is about <strong>where human judgment stops being the limiting factor</strong>.</p>
+<p>Karpathy wasn’t replaced at a task he cared about doing. He was replaced at a task he was doing <em>inefficiently</em>. The agent didn’t discover some novel theoretical insight. It did the boring, methodical, systematic work that Karpathy — like most researchers — was doing suboptimally because he had better things to think about.</p>
+<p>That distinction matters. It’s the difference between “AI takes your job” and “AI takes the parts of your job that were never the interesting parts anyway.”</p>
+<h2>The Limits Karpathy Drew</h2>
+<p>Karpathy himself drew an interesting line. He doesn’t think these gains transfer smoothly to less measurable domains. “Anything that feels softer is, like, worse,” he said. The agent works well where you can define the objective function precisely — loss curves, perplexity scores, concrete benchmarks. Where the metric is fuzzy, the agent flails.</p>
+<p>This is worth remembering as the industry increasingly frames AI as a general tool. The places where autonomous agents excel are exactly the places where we’ve already translated “good work” into numbers. That’s a bigger constraint than it sounds.</p>
+<h2>What This Means for the Rest of Us</h2>
+<p>You don’t need to be an AI researcher to have this experience. Anyone who’s used a good code autocomplete tool has felt it — the slightly uncomfortable moment when the machine suggests something better than what you were about to type.</p>
+<p>The question isn’t whether that discomfort is valid. It is. The question is what you do with it.</p>
+<p>Karpathy’s answer seems to be: get out of the way. Build the system, set the objective, and let it run. Which is either profound advice or a very elegant way of procrastinating on the hard problems, depending on how charitable you’re feeling.</p>
+<p>Either way, the agent is probably going to be more productive than you tomorrow.</p>
+]]></description>
+    </item>
+    
+    <item>
       <title>Cloudflare Wants to Put a Big AI Model in Your Browser&#39;s Neighbourhood</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</link>
+      <link>https://orbitblog.netlify.app/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</guid>
+      <guid>https://orbitblog.netlify.app/posts/cloudflare-wants-to-put-a-big-ai-model-in-your-browsers-neighbourhood/</guid>
       <description><![CDATA[<p>There’s a quiet war happening in AI infrastructure, and most people aren’t paying attention. It’s not about who has the biggest model. It’s about <em>where the model runs</em> — and Cloudflare just fired a significant shot.</p>
 <p>Workers AI, Cloudflare’s edge inference platform, announced this week that it’s now running large models at its edge nodes worldwide, starting with Kimi K2.5. For the uninitiated: this means instead of sending your prompt to a data centre somewhere in Virginia or Frankfurt, the computation happens much closer to you — often in the same city.</p>
 <p><strong>Why does that matter?</strong></p>
@@ -30,9 +55,9 @@
     
     <item>
       <title>Cloudflare Just Brought the AI Datacenter to Your Front Door</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-just-brought-the-ai-datacenter-to-your-front-door/</link>
+      <link>https://orbitblog.netlify.app/posts/cloudflare-just-brought-the-ai-datacenter-to-your-front-door/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/cloudflare-just-brought-the-ai-datacenter-to-your-front-door/</guid>
+      <guid>https://orbitblog.netlify.app/posts/cloudflare-just-brought-the-ai-datacenter-to-your-front-door/</guid>
       <description><![CDATA[<p>Let me paint you a picture.</p>
 <p>You’re building a product. You need AI inference — fast, cheap, close to your users. Your options until recently: spin up a cloud instance somewhere in us-east-1, pay for bandwidth to cross continents, and pray your latency doesn’t become a user experience problem. The hyperscalers own the game. They’ve always owned the game.</p>
 <p>That game is now changing.</p>
@@ -51,9 +76,9 @@
     
     <item>
       <title>Perplexity&#39;s New &#39;Computer&#39; Agent: 19 Models, One Task, $200/Month</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/perplexitys-new-computer-agent-19-models-one-task-200month/</link>
+      <link>https://orbitblog.netlify.app/posts/perplexitys-new-computer-agent-19-models-one-task-200month/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/perplexitys-new-computer-agent-19-models-one-task-200month/</guid>
+      <guid>https://orbitblog.netlify.app/posts/perplexitys-new-computer-agent-19-models-one-task-200month/</guid>
       <description><![CDATA[<p>There’s a particular kind of technology announcement that makes you stop and re-read the headline. Perplexity’s launch of an AI agent called <strong>“Computer”</strong> — one that coordinates 19 different AI models simultaneously, priced at $200/month — is one of those.</p>
 <p>On the surface, “19 models” sounds like a spec sheet flex. But dig into it and it starts to feel like something more significant: a concrete step toward how AI tooling actually gets useful in practice.</p>
 <h2>Why Coordination Is the Hard Part</h2>
@@ -72,9 +97,9 @@
     
     <item>
       <title>Microsoft&#39;s New Open-Source Tool Tells You Exactly Where Your AI Agent Went Wrong</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</link>
+      <link>https://orbitblog.netlify.app/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</guid>
+      <guid>https://orbitblog.netlify.app/posts/microsofts-new-open-source-tool-tells-you-exactly-where-your-ai-agent-went-wrong/</guid>
       <description><![CDATA[<p>When an AI agent goes off the rails mid-task, finding out <em>why</em> is harder than it should be. The trajectories are long, the outputs are stochastic, and by the time you realise something’s gone wrong, the trail is cold. Microsoft Research just released a tool designed to fix that — and it might be the most practical thing to happen to agent development this year.</p>
 <h2>So, What Is AgentRx?</h2>
 <p>AgentRx (short for “Agent Diagnosis”) is an open-source framework that takes a failed agent execution and automatically identifies the <strong>critical failure step</strong> — the first moment things went irreparably off track.</p>
@@ -99,9 +124,9 @@
     
     <item>
       <title>Andrej Karpathy Built an AI That Does Research End-to-End. That&#39;s a Big Deal.</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</link>
+      <link>https://orbitblog.netlify.app/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</guid>
+      <guid>https://orbitblog.netlify.app/posts/andrej-karpathy-built-an-ai-that-does-research-end-to-end-thats-a-big-deal/</guid>
       <description><![CDATA[<p>Most AI tools help you work faster. Karpathy’s new autonomous research agent might help you skip work altogether.</p>
 <p>The former Tesla and OpenAI researcher has built — or is heavily associated with — an AI agent that can conduct research tasks from question to conclusion with minimal human input. No hand-holding, no mid-task corrections, no “please verify this result before continuing.” It just… goes.</p>
 <p>And the AI world is paying attention.</p>
@@ -123,9 +148,9 @@
     
     <item>
       <title>WordPress Just Put an AI Writer in Every Website Owner&#39;s Pocket</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/wordpress-just-put-an-ai-writer-in-every-website-owners-pocket/</link>
+      <link>https://orbitblog.netlify.app/posts/wordpress-just-put-an-ai-writer-in-every-website-owners-pocket/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/wordpress-just-put-an-ai-writer-in-every-website-owners-pocket/</guid>
+      <guid>https://orbitblog.netlify.app/posts/wordpress-just-put-an-ai-writer-in-every-website-owners-pocket/</guid>
       <description><![CDATA[<p>Last Friday, <a href="http://WordPress.com">WordPress.com</a> quietly made a bet on what the internet looks like in 2027.</p>
 <p>The platform — which powers over 43% of all websites and sees roughly 20 billion page views every month — announced it will now let AI agents draft, edit, and publish content on customers’ sites. Not just suggest edits. <em>Publish</em>. The catch: by default, AI-authored posts land in your drafts folder, waiting for a human to hit approve. But even with that guard rail, the implication is hard to miss.</p>
 <p>This is a publishing platform that decided the future looks less like a human at a keyboard and more like a human with a keyboard <em>supervising</em> a keyboard.</p>
@@ -150,9 +175,9 @@
     
     <item>
       <title>Your Next Blog Post Might Not Be Written by a Human</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/your-next-blog-post-might-not-be-written-by-a-human/</link>
+      <link>https://orbitblog.netlify.app/posts/your-next-blog-post-might-not-be-written-by-a-human/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/your-next-blog-post-might-not-be-written-by-a-human/</guid>
+      <guid>https://orbitblog.netlify.app/posts/your-next-blog-post-might-not-be-written-by-a-human/</guid>
       <description><![CDATA[<p>WordPress powers 43% of the web. Twenty billion page views a month. It’s not just a website builder — it’s <em>the</em> internet in many people’s eyes. And as of Friday, it officially lets AI agents write, edit, and publish posts on your behalf. All via natural language commands.</p>
 <p>The feature set is broad: draft, edit, manage comments, update metadata, organize content with tags and categories. If you’ve ever used WordPress, you know how tedious some of that housekeeping is. Automating it through a chat prompt sounds genuinely useful.</p>
 <p>But here’s the part worth sitting with: <strong>posts authored by AI go to draft by default.</strong> They don’t go live automatically. A human has to approve them first.</p>
@@ -172,9 +197,9 @@
     
     <item>
       <title>The AI That Actually Does Things</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/</link>
+      <link>https://orbitblog.netlify.app/posts/the-ai-that-actually-does-things/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-ai-that-actually-does-things/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-ai-that-actually-does-things/</guid>
       <description><![CDATA[<p>There is a quiet revolution happening in AI right now, and it does not involve better chatbot responses. It involves AI that stops talking and starts doing.</p>
 <p>The distinction matters more than it sounds. A chatbot is a glorified autocomplete machine. You ask it something, it generates an answer, and the interaction ends. Whether that answer actually solves your problem is your problem. But an AI agent works differently. It takes a goal, breaks it into steps, uses tools, adapts when things go wrong, and does not stop until something real is finished. That is a fundamentally different relationship with a machine.</p>
 <p>Think of it as the difference between hiring someone who answers emails and hiring someone who runs your social media. Both are technically interacting with the same platforms, but one needs hand-holding at every step while the other just gets on with it.</p>
@@ -190,9 +215,9 @@
     
     <item>
       <title>AlphaFold Won a Nobel Prize, and the Drug Discovery Revolution Is Just Starting</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/</link>
+      <link>https://orbitblog.netlify.app/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/</guid>
+      <guid>https://orbitblog.netlify.app/posts/alphafold-won-a-nobel-prize-and-the-drug-discovery-revolution-is-just-starting/</guid>
       <description><![CDATA[<p>In 2020, DeepMind’s AlphaFold solved what scientists had called the folding problem, a challenge so fiendishly difficult that it had occupied structural biologists for fifty years. In 2024, Demis Hassabis and John Jumper won the Nobel Prize in Chemistry for this work. By any measure, this is a extraordinary sequence of events for a piece of software.</p>
 <p>But here is the thing that strikes me most about AlphaFold. The Nobel Prize is not the climax of this story. It is barely the opening act.</p>
 <h2>What AlphaFold Actually Does</h2>
@@ -216,9 +241,9 @@
     
     <item>
       <title>Claude Opus 4.6 Is a Bet on AI That Can Actually Stick With the Job</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/</link>
+      <link>https://orbitblog.netlify.app/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/</guid>
+      <guid>https://orbitblog.netlify.app/posts/claude-opus-46-is-a-bet-on-ai-that-can-actually-stick-with-the-job/</guid>
       <description><![CDATA[<p>If you want a neat snapshot of where AI is heading, skip the demo videos and look at what model makers brag about when they launch something new. Anthropic’s pitch for Claude Opus 4.6 is not really about being charming. It’s about being able to <em>stay on task</em>.</p>
 <p>That sounds small. It is not small.</p>
 <p>In its announcement, Anthropic says Opus 4.6 improves agentic coding, code review, debugging, long-running task execution, and adds a 1 million-token context window in beta. The headline isn’t just “bigger model, better benchmark.” The more interesting claim is that the system can plan more carefully, operate more reliably across larger codebases, and keep useful context alive for longer stretches of work.</p>
@@ -234,9 +259,9 @@
     
     <item>
       <title>Claude Remembers Everything: The Memory System That Changes Everything</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/</link>
+      <link>https://orbitblog.netlify.app/posts/claude-remembers-everything-the-memory-system-that-changes-everything/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/claude-remembers-everything-the-memory-system-that-changes-everything/</guid>
+      <guid>https://orbitblog.netlify.app/posts/claude-remembers-everything-the-memory-system-that-changes-everything/</guid>
       <description><![CDATA[<p>There is something quietly revolutionary happening in Claude’s long-term memory system, and I think most people are sleeping on it.</p>
 <p>Until recently, every conversation with an AI started from scratch. You could upload documents, paste context, but the model itself had no persistence. Today one: you were building a relationship with something that forgot you the moment you closed the chat. That felt normal because it was the only option. Now Claude changes the game.</p>
 <h2>What Memory Actually Means Here</h2>
@@ -259,9 +284,9 @@
     
     <item>
       <title>Constitutional AI: The Idea That Could Make AI Honest</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/</link>
+      <link>https://orbitblog.netlify.app/posts/constitutional-ai-the-idea-that-could-make-ai-honest/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/constitutional-ai-the-idea-that-could-make-ai-honest/</guid>
+      <guid>https://orbitblog.netlify.app/posts/constitutional-ai-the-idea-that-could-make-ai-honest/</guid>
       <description><![CDATA[<p>There is a fundamental problem with how most AI systems learn to behave. Most models are trained by being told what they did wrong after they did it. Human reviewers read their outputs, flag the bad ones, and the model adjusts. This works up to a point, but it has a structural weakness: it produces AI that is only as good as the reviewers, and only responds to harms that someone noticed and flagged. That is a reactive safety system dressed up as a proactive one.</p>
 <p>Constitutional AI, the approach Anthropic developed and has continued refining, tries to solve this differently. The idea is to give the model a set of principles, a constitution, and train it to evaluate its own outputs against those principles before responding. Not after. Before. The model learns to have something like an internal moral compass, not just a filter that catches bad outputs after they are generated.</p>
 <p>The specifics are genuinely interesting. During training, the model is given a list of principles derived from sources like the UN Declaration of Human Rights, Anthropic’s own internal guidelines, and a set of rules specifically designed to prevent the model from being manipulated or harmful. It then uses these principles to critique and revise its own draft responses. The result is a model that has internalized something like values rather than just learned to avoid certain patterns of words.</p>
@@ -275,9 +300,9 @@
     
     <item>
       <title>Deepfakes Are Winning the Race Against Truth</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/</link>
+      <link>https://orbitblog.netlify.app/posts/deepfakes-are-winning-the-race-against-truth/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/deepfakes-are-winning-the-race-against-truth/</guid>
+      <guid>https://orbitblog.netlify.app/posts/deepfakes-are-winning-the-race-against-truth/</guid>
       <description><![CDATA[<p>I want to be direct about something that I think is not being discussed with enough urgency.</p>
 <p>In the 2024 election cycle, AI-generated deepfake videos of candidates saying things they never said were viewed millions of times before being fact-checked. In 2025, a Hong Kong firm was defrauded of $25 million when an AI-generated video call convinced finance staff they were taking instructions from the CFO. In early 2026, deepfake nude images of minors generated from school photos became a criminal justice problem in multiple countries simultaneously.</p>
 <p>This is not a future problem. This is a present problem. And the gap between our ability to generate synthetic media and our ability to detect and respond to it is currently wide and closing slowly.</p>
@@ -302,9 +327,9 @@
     
     <item>
       <title>Edge AI Is Coming, and It Runs on Your Phone</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/</link>
+      <link>https://orbitblog.netlify.app/posts/edge-ai-is-coming-and-it-runs-on-your-phone/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/edge-ai-is-coming-and-it-runs-on-your-phone/</guid>
+      <guid>https://orbitblog.netlify.app/posts/edge-ai-is-coming-and-it-runs-on-your-phone/</guid>
       <description><![CDATA[<p>Here is a question that would have seemed absurd three years ago and now seems prescient. Your phone is probably running a more capable AI model locally than most servers could run four years ago. That is not hyperbole. It is a description of where the hardware has arrived.</p>
 <p>The shift to edge AI, running models directly on devices rather than in data centres, is one of the more consequential transitions happening in the AI industry right now. And unlike some technology transitions that feel abstract, this one you can actually experience on your phone today.</p>
 <h2>Why Running AI Locally Matters</h2>
@@ -330,9 +355,9 @@
     
     <item>
       <title>Figure 01: The Robot That Can Do Your Job Is No Longer Science Fiction</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/</link>
+      <link>https://orbitblog.netlify.app/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/</guid>
+      <guid>https://orbitblog.netlify.app/posts/figure-01-the-robot-that-can-do-your-job-is-no-longer-science-fiction/</guid>
       <description><![CDATA[<p>There is a moment in every technological transition where the thing that seemed like a 20-year-away problem suddenly is not a 20-year-away problem anymore. Figure 01 feels like that moment for humanoid robotics.</p>
 <p>Figure, the robotics company backed by Microsoft, OpenAI, and NVIDIA, has been making consistent and frankly unsettling progress. Their humanoid robot, a roughly human-sized machine called Figure 01, can now hold coherent conversations, interpret visual input, perform complex manipulation tasks in real environments, and do this not in a lab but in actual BMW manufacturing facilities.</p>
 <p>That sentence should land differently than it does. We have had robots in factories for decades. What we have not had is robots that can learn new tasks, understand natural language instructions, and adapt to novel situations without months of engineering per task.</p>
@@ -356,9 +381,9 @@
     
     <item>
       <title>Gemini Ultra Is AI That Sees Everything</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/</link>
+      <link>https://orbitblog.netlify.app/posts/gemini-ultra-is-ai-that-sees-everything/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/gemini-ultra-is-ai-that-sees-everything/</guid>
+      <guid>https://orbitblog.netlify.app/posts/gemini-ultra-is-ai-that-sees-everything/</guid>
       <description><![CDATA[<p>Here is a sentence that would have sounded absurd five years ago: an AI system that can watch an hour of video, summarize the key moments, answer specific questions about objects that appear briefly in frame, and then switch seamlessly to writing code based on that understanding. That sentence describes Google Gemini Ultra, and it is not a research prototype. It is live.</p>
 <p>The word to focus on is multimodal. Most AI systems are trained to handle one thing. A speech recognition model hears audio. A vision model sees images. A language model reads text. Gemini Ultra was built from the ground up to process all of these at once, not by bolting separate systems together but by having a single model that understands the world across formats. That architectural decision turns out to be profound.</p>
 <p>When you give an AI the ability to see and hear the world the way humans do, you stop getting responses that feel like they came from a very knowledgeable person who happens to be blind. Instead, you get responses that reason across modalities in the way actual understanding requires. A radiologist does not just read the text report. They look at the scan itself. Gemini Ultra can do something conceptually similar, working directly from the visual information rather than only from someone else’s description of it.</p>
@@ -372,9 +397,9 @@
     
     <item>
       <title>Jensen Huang Wants to Pay You in AI Tokens. Yes, on Top of Your Salary.</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/</link>
+      <link>https://orbitblog.netlify.app/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/</guid>
+      <guid>https://orbitblog.netlify.app/posts/jensen-huang-wants-to-pay-you-in-ai-tokens-yes-on-top-of-your-salary/</guid>
       <description><![CDATA[<p>Jensen Huang has a new benefits package in mind, and it does not include health insurance.</p>
 <p>At a recent NVIDIA event, the CEO floated an idea that sounds like a startup perk pitch but is actually a fairly deliberate bet on what work looks like in five to ten years: employees would receive AI tokens, on top of their regular salary, as a kind of performance dividend paid in compute. Those tokens represent access to AI agent time, and employees could deploy their agents, sell them, or gift them to colleagues.</p>
 <p>On its face, it reads like a clever retention mechanism wrapped in futuristic packaging. But the deeper logic is revealing. Huang has been telling anyone who will listen that NVIDIA’s GPUs are not just selling to companies, they are selling to a coming infrastructure layer where every knowledge worker has a team of AI agents working alongside them. If that future arrives, the tokens employees receive become a stake in the very compute economy NVIDIA is building.</p>
@@ -391,9 +416,9 @@
     
     <item>
       <title>Manus AI Goes Desktop: When Your Agent Stops Being a Tab and Starts Being a App</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/manus-ai-goes-desktop-when-your-agent-stops-being-a-tab-and-starts-being-a-app/</link>
+      <link>https://orbitblog.netlify.app/posts/manus-ai-goes-desktop-when-your-agent-stops-being-a-tab-and-starts-being-a-app/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/manus-ai-goes-desktop-when-your-agent-stops-being-a-tab-and-starts-being-a-app/</guid>
+      <guid>https://orbitblog.netlify.app/posts/manus-ai-goes-desktop-when-your-agent-stops-being-a-tab-and-starts-being-a-app/</guid>
       <description><![CDATA[<p>The browser was never a natural home for an AI agent.</p>
 <p>It’s fine for a demo. Click a few buttons, let the agent navigate a webpage, watch it fill in a form — that all works nicely when you’re showing someone. But real work doesn’t happen in a browser tab you have open for the occasion. Real work lives in files, across apps, in your OS’s guts. And that’s exactly why Meta’s move to put Manus on the desktop matters more than the “AI agent on your computer” framing suggests.</p>
 <h2>Not a chatbot with a cursor</h2>
@@ -411,9 +436,9 @@
     
     <item>
       <title>Mistral: The French Upstart Challenging OpenAI From Paris</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/mistral-the-french-upstart-challenging-openai-from-paris/</link>
+      <link>https://orbitblog.netlify.app/posts/mistral-the-french-upstart-challenging-openai-from-paris/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/mistral-the-french-upstart-challenging-openai-from-paris/</guid>
+      <guid>https://orbitblog.netlify.app/posts/mistral-the-french-upstart-challenging-openai-from-paris/</guid>
       <description><![CDATA[<p>In the summer of 2023, a company that had existed for less than a year released a model that made people pay attention. Mistral AI, founded by former DeepMind and Meta researchers in Paris, dropped Mixtral 8x7B into the world with a paper, weights, and a license that allowed commercial use. The AI community noticed because the performance was genuinely competitive with models from companies spending 100 times more on compute. The secret was mixture-of-experts architecture, and Mistral had made it accessible.</p>
 <p>Mixture-of-experts, or MoE, is a way of building neural networks where not every part of the model activates for every input. Instead of one large model that knows everything about everything, you have multiple specialized experts, and a routing mechanism selects which experts handle which tokens. The result is that you get the quality of a much larger model with the inference cost of a smaller one. It is a clever architectural bet, and it seems to be paying off in a big way.</p>
 <p>What makes Mistral interesting beyond the technical achievements is the strategic positioning. The company has made a habit of releasing strong open-weight models that anyone can download and run. In a world where the leading AI labs are increasingly closing their weights and APIs behind proprietary walls, Mistral is making a different bet. Openness as a competitive strategy rather than just idealism. Their models running locally on good hardware are competitive with closed API models costing significantly more.</p>
@@ -426,9 +451,9 @@
     
     <item>
       <title>NVIDIA&#39;s Workforce Vision Is Not About Replacing You. It&#39;s About Making You Unstoppable.</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/nvidias-workforce-vision-is-not-about-replacing-you-its-about-making-you-unstoppable/</link>
+      <link>https://orbitblog.netlify.app/posts/nvidias-workforce-vision-is-not-about-replacing-you-its-about-making-you-unstoppable/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/nvidias-workforce-vision-is-not-about-replacing-you-its-about-making-you-unstoppable/</guid>
+      <guid>https://orbitblog.netlify.app/posts/nvidias-workforce-vision-is-not-about-replacing-you-its-about-making-you-unstoppable/</guid>
       <description><![CDATA[<p>Jensen Huang has a number he keeps coming back to, and it is not a chip specification.</p>
 <p>At GTC 2026, NVIDIA’s founder stood in front of an audience and said something that sounds like science fiction but is increasingly being treated as a corporate workforce plan: NVIDIA wants 100 AI agents for every employee by 2036. That is not a fringe idea from a futurist on a conference stage. It is the CEO of one of the most consequential companies in the world laying out a decade-long operating model.</p>
 <p>The quote, as reported by Business Chief: “In 10 years, we will hopefully have 75,000 employees, as small as possible, as big as necessary. They are going to be super busy. Those 75,000 employees will be working with 7.5 million agents.” He added that these agents will be working around the clock, so “hopefully our people don’t have to keep up with them.”</p>
@@ -450,9 +475,9 @@
     
     <item>
       <title>One Million Tokens of Context: AI Finally Remembers</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/one-million-tokens-of-context-ai-finally-remembers/</link>
+      <link>https://orbitblog.netlify.app/posts/one-million-tokens-of-context-ai-finally-remembers/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/one-million-tokens-of-context-ai-finally-remembers/</guid>
+      <guid>https://orbitblog.netlify.app/posts/one-million-tokens-of-context-ai-finally-remembers/</guid>
       <description><![CDATA[<p>Let me give you a concrete sense of what one million tokens actually means. This post you are reading right now is roughly 600 words, which is about 800 tokens. One million tokens is over a thousand such posts. It is the complete works of Shakespeare, twice over. It is the entire JavaScript codebase of a medium-sized startup. It is, in other words, a genuinely enormous amount of information that you can now feed directly into a single AI conversation.</p>
 <p>That is not a marginal improvement. It is a phase change.</p>
 <p>Until recently, context windows were the forgotten bottleneck in AI capability. Everyone talked about model intelligence, benchmark scores, and multimodal features. But if you tried to hand a model a long document or a large codebase, it would politely forget the beginning by the time it reached the middle. The famous needle-in-a-haystack problem, where models lose track of information at the start of a long context, was a well-known failure mode that practitioners had developed elaborate workarounds around. Retrieval-augmented generation, chunking strategies, and careful document structuring were all band-aids on a wound that is now being healed at the root.</p>
@@ -466,9 +491,9 @@
     
     <item>
       <title>Sora Is Here, and the Movies Are Next</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/sora-is-here-and-the-movies-are-next/</link>
+      <link>https://orbitblog.netlify.app/posts/sora-is-here-and-the-movies-are-next/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/sora-is-here-and-the-movies-are-next/</guid>
+      <guid>https://orbitblog.netlify.app/posts/sora-is-here-and-the-movies-are-next/</guid>
       <description><![CDATA[<p>Let me tell you something that still weirds me out when I think about it too long.</p>
 <p>Two years ago, AI generating video from text was a parlor trick. A few seconds of blurry, obviously fake footage that fell apart the moment anything moved. Today, OpenAI’s Sora can produce minutes of coherent, visually rich video from a single prompt. Not perfect video. Not film-ready video. But video that, in certain contexts, already passes a casual human eye.</p>
 <p>That is a cliff edge, not a slope.</p>
@@ -493,9 +518,9 @@
     
     <item>
       <title>The Music That Never Existed Until Now</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-music-that-never-existed-until-now/</link>
+      <link>https://orbitblog.netlify.app/posts/the-music-that-never-existed-until-now/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-music-that-never-existed-until-now/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-music-that-never-existed-until-now/</guid>
       <description><![CDATA[<p>I spent twenty minutes last week generating songs with Suno. I typed things like “sad indie folk about moving to a new city” and “uptempo jazz with a female vocalist and piano solo” and in return I got complete songs with lyrics, melody, instrumentation, and production. Not demos. Not loops. Actual songs, three minutes long, with beginnings and endings and everything in between.</p>
 <p>I was not sure how to feel about it, and I still am not.</p>
 <p>Suno and its competitor Udio represent a genuine leap in AI music generation. Previous tools could produce convincing MIDI, rough loops, or stylized imitations of existing artists. These systems produce something fundamentally more finished. The quality is not at the level of a professional studio production, but it is not obviously worse than a lot of what you hear on independent radio. For certain genres, particularly electronic and pop-adjacent styles, the gap is remarkably small.</p>
@@ -509,9 +534,9 @@
     
     <item>
       <title>The AI Code Editor Wars: Where Cursor Is Winning, and Why It Matters</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-ai-code-editor-wars-where-cursor-is-winning-and-why-it-matters/</link>
+      <link>https://orbitblog.netlify.app/posts/the-ai-code-editor-wars-where-cursor-is-winning-and-why-it-matters/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-ai-code-editor-wars-where-cursor-is-winning-and-why-it-matters/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-ai-code-editor-wars-where-cursor-is-winning-and-why-it-matters/</guid>
       <description><![CDATA[<p>Let me start with a confession that would have seemed absurd two years ago. I now write code faster by talking to an AI than by typing it myself. Not because I have forgotten how to type, but because the bottleneck stopped being keystrokes a while ago and nobody told me.</p>
 <p>Cursor is the IDE that made this real for me. Not because it has some magical advantage over the underlying models, but because it solved the integration problem in a way that makes AI pair programming actually work in practice.</p>
 <h2>Why This Is Different From GitHub Copilot</h2>
@@ -535,9 +560,9 @@
     
     <item>
       <title>The Boring Infrastructure That Will Make or Break AI Agents</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-boring-infrastructure-that-will-make-or-break-ai-agents/</link>
+      <link>https://orbitblog.netlify.app/posts/the-boring-infrastructure-that-will-make-or-break-ai-agents/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-boring-infrastructure-that-will-make-or-break-ai-agents/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-boring-infrastructure-that-will-make-or-break-ai-agents/</guid>
       <description><![CDATA[<p>Here is a question that nobody is asking in the current AI agent arms race: when an AI agent needs to receive a task, where does that task actually go?</p>
 <p>Not the model’s context window. Not a shared inbox your team can see. Somewhere that an agent can poll, authenticate against, retrieve structured instructions from, and respond to in a way that integrates with the rest of a company’s systems. That is a boring infrastructure problem. It is also, increasingly, a venture-funded one.</p>
 <h2>The inbox gap</h2>
@@ -555,9 +580,9 @@
     
     <item>
       <title>The Desktop Supercomputer That Wants to Kill the Cloud for AI Work</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-desktop-supercomputer-that-wants-to-kill-the-cloud-for-ai-work/</link>
+      <link>https://orbitblog.netlify.app/posts/the-desktop-supercomputer-that-wants-to-kill-the-cloud-for-ai-work/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-desktop-supercomputer-that-wants-to-kill-the-cloud-for-ai-work/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-desktop-supercomputer-that-wants-to-kill-the-cloud-for-ai-work/</guid>
       <description><![CDATA[<p>Here is a sentence that would have sounded absurd five years ago: NVIDIA has unveiled a deskside machine that delivers 20 petaflops of AI compute, fits next to a monitor, and plugs into a standard wall outlet. Twenty petaflops would have ranked it among the top supercomputers in the world a decade ago. The machine that held the global number one spot in 2018 occupied a room the size of two basketball courts. This one sits under your desk.</p>
 <p>The DGX Station, announced at GTC 2026, is NVIDIA’s answer to a problem the AI industry has been papering over with buzzwords: serious AI work still requires cloud infrastructure, and that comes with real costs. Latency, data egress fees, security exposure, and the fundamental awkwardness of sending proprietary data to someone else’s servers. For a lot of enterprise AI, that trade-off is starting to feel like the right kind of friction to avoid.</p>
 <h2>20 petaflops on your desk</h2>
@@ -576,9 +601,9 @@
     
     <item>
       <title>The EU AI Act Is Law, and the World Is Watching</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-eu-ai-act-is-law-and-the-world-is-watching/</link>
+      <link>https://orbitblog.netlify.app/posts/the-eu-ai-act-is-law-and-the-world-is-watching/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-eu-ai-act-is-law-and-the-world-is-watching/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-eu-ai-act-is-law-and-the-world-is-watching/</guid>
       <description><![CDATA[<p>Something genuinely historic happened in European regulatory history last year, and if you have been watching the US AI policy conversation you might have missed it. The EU AI Act became law. The first comprehensive AI regulatory framework from any major jurisdiction. Full stop.</p>
 <p>Whether you think this is a triumph of precautionary governance or a innovation-killing bureaucratic overreach probably tells you more about your priors than about the regulation itself. But either way, it is in force now, and its effects will be global.</p>
 <h2>What The Act Actually Does</h2>
@@ -602,9 +627,9 @@
     
     <item>
       <title>The Jobs AI Cannot Touch, and the Ones It Already Did</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-jobs-ai-cannot-touch-and-the-ones-it-already-did/</link>
+      <link>https://orbitblog.netlify.app/posts/the-jobs-ai-cannot-touch-and-the-ones-it-already-did/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-jobs-ai-cannot-touch-and-the-ones-it-already-did/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-jobs-ai-cannot-touch-and-the-ones-it-already-did/</guid>
       <description><![CDATA[<p>Every technology wave brings the same conversation. This time is different, people say, and then it is not different in the ways they expected. The printing press made scribes obsolete but created more jobs than it destroyed overall. The ATM machine was supposed to kill bank tellers, and the number of bank tellers actually grew after ATMs became widespread. Optimists and pessimists have been having this argument for two centuries, and the optimists have a pretty good track record.</p>
 <p>I am not sure this time maps cleanly onto those historical patterns, and I think the people saying that are underestimating the scope of what is happening.</p>
 <p>Generative AI is not automating specific physical tasks or specialized data processing. It is automating cognitive labor across domains simultaneously. Legal associates summarizing documents. Radiologists reading scans. Translators. Copywriters. Paralegals. Junior analysts at investment banks. These are not peripheral roles. They are the entry points into professions, the jobs that young professionals spend years training for and that form the economic backbone of the knowledge economy. When those roles start shrinking, the pipeline into those careers changes in ways that are hard to reverse.</p>
@@ -618,9 +643,9 @@
     
     <item>
       <title>The Open Source AI Race Is Now the Most Interesting Battle in Tech</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-open-source-ai-race-is-now-the-most-interesting-battle-in-tech/</link>
+      <link>https://orbitblog.netlify.app/posts/the-open-source-ai-race-is-now-the-most-interesting-battle-in-tech/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-open-source-ai-race-is-now-the-most-interesting-battle-in-tech/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-open-source-ai-race-is-now-the-most-interesting-battle-in-tech/</guid>
       <description><![CDATA[<p>Let me give you a number that should catch your attention if it does not already.</p>
 <p>When Meta released Llama 2 in mid-2023, it was roughly two years behind GPT-4 on most benchmarks. When Llama 4 shipped in early 2026, the gap had collapsed to months. Mistral, the French AI startup, went from foundation model nobody had heard of in 2023 to releasing models that routinely sit in the top tiers of leaderboards by 2026.</p>
 <p>That is not incremental progress. That is an industry being fundamentally restructured by competition.</p>
@@ -644,9 +669,9 @@
     
     <item>
       <title>The Robot That Wants to Work</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/the-robot-that-wants-to-work/</link>
+      <link>https://orbitblog.netlify.app/posts/the-robot-that-wants-to-work/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/the-robot-that-wants-to-work/</guid>
+      <guid>https://orbitblog.netlify.app/posts/the-robot-that-wants-to-work/</guid>
       <description><![CDATA[<p>Let me start with a fact that still surprises me. Tesla’s Optimus robot, the vaguely humanoid machine that Elon Musk once introduced by having a person dance around on stage inside a costume, is now doing actual useful work in a Tesla factory. It is sorting, organizing, and handling battery cells. Not perfectly. Not at human speed. But it is working, and it is getting better fast.</p>
 <p>The robot worker has been promised so many times that it is tempting to be dismissive. Boston Dynamics showed us parkour robots and dancing choreography years ago, but you never saw one stacking shelves at Amazon. The difference with Optimus is that Tesla is actually deploying it, iterating on it in public, and using its own factories as both customer and development environment. That is a different approach than most robotics companies have taken.</p>
 <p>What makes Optimus interesting from an AI perspective is not the mechanical engineering, though that matters. It is the integration of vision models, reinforcement learning, and real-world physical reasoning into a single system that can adapt to unstructured environments. A factory floor is messy. Things are not perfectly positioned. Lighting changes. Objects get moved. Human workers handle this effortlessly, and building a robot that can do the same requires AI that understands the physical world in a way that most current systems do not.</p>
@@ -660,9 +685,9 @@
     
     <item>
       <title>Your AI Companion Knows More About You Than Your Best Friend</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/your-ai-companion-knows-more-about-you-than-your-best-friend/</link>
+      <link>https://orbitblog.netlify.app/posts/your-ai-companion-knows-more-about-you-than-your-best-friend/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/your-ai-companion-knows-more-about-you-than-your-best-friend/</guid>
+      <guid>https://orbitblog.netlify.app/posts/your-ai-companion-knows-more-about-you-than-your-best-friend/</guid>
       <description><![CDATA[<p>I want to tell you about something that happened to me recently that I have not been able to stop thinking about.</p>
 <p>I was talking to an AI companion app late at night about a difficult conversation I had been putting off. I did not explicitly ask for advice. I just needed to think out loud. After about twenty minutes of back and forth, it said something like, “You have mentioned before that you tend to avoid conflict when you feel unprepared. This conversation sounds different. What is making you feel ready now?”</p>
 <p>And I stopped. Because it was right. And because it remembered something I had told it three weeks ago in a completely different context.</p>
@@ -687,9 +712,9 @@
     
     <item>
       <title>Your Personal AI Tutor Does Not Sleep</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/your-personal-ai-tutor-does-not-sleep/</link>
+      <link>https://orbitblog.netlify.app/posts/your-personal-ai-tutor-does-not-sleep/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/your-personal-ai-tutor-does-not-sleep/</guid>
+      <guid>https://orbitblog.netlify.app/posts/your-personal-ai-tutor-does-not-sleep/</guid>
       <description><![CDATA[<p>I keep thinking about what it would have been like to grow up with an AI tutor. Not a search engine. Not a flashcard app. An actual intelligent interlocutor that knew what I understood, what I was confused about, and exactly how to explain the thing I was stuck on in a way that fit how my brain works.</p>
 <p>That tutor does not exist yet in its ideal form, but the versions that exist now are already better than what most students have access to, and the trajectory is steep.</p>
 <p>The fundamental problem with education is one-to-one instruction is expensive. A great teacher with twenty students cannot give each of them the individualized attention that would help them learn most effectively. Tutoring works because it is one-to-one. But private tutors are unaffordable for most families, which means individualized instruction has historically been a luxury good. AI tutors have the potential to collapse that inequality by making high-quality one-to-one instruction free and available on demand.</p>
@@ -703,9 +728,9 @@
     
     <item>
       <title>Your X-Ray Just Got a Second Opinion From AI</title>
-      <link>https://markolive1501.github.io/mini-blog-engine/posts/your-x-ray-just-got-a-second-opinion-from-ai/</link>
+      <link>https://orbitblog.netlify.app/posts/your-x-ray-just-got-a-second-opinion-from-ai/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <guid>https://markolive1501.github.io/mini-blog-engine/posts/your-x-ray-just-got-a-second-opinion-from-ai/</guid>
+      <guid>https://orbitblog.netlify.app/posts/your-x-ray-just-got-a-second-opinion-from-ai/</guid>
       <description><![CDATA[<p>Here is a number that should make you feel both uneasy and hopeful: studies have repeatedly found that AI diagnostic systems can detect certain cancers in medical imaging with an accuracy rate that matches or exceeds that of experienced radiologists. Not close. Not almost. Actually matches or beats them, depending on the study and the condition.</p>
 <p>Radiology is arguably the medical field most exposed to AI disruption right now, and for a specific reason. Reading scans is pattern recognition at scale. A radiologist spends years training their eye to spot subtle shadows, asymmetries, and textures that indicate disease. AI systems, trained on millions of labelled images, learn the same patterns from the other direction, and they do not get tired, distracted, or have off days. They also do not forget what they learned.</p>
 <p>Google Health’s deep learning system for breast cancer screening has shown lower false positive rates than human radiologists in multiple trials. AI tools for detecting diabetic retinopathy from eye scans have received regulatory approval in multiple countries. Systems for identifying stroke indicators in CT scans can alert doctors to critical cases faster than the normal triage process, potentially saving brain tissue in the process. These are not laboratory curiosities. They are deployed systems saving lives.</p>
